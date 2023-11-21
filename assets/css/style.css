@@ -23,6 +23,11 @@ header {
     background-color: azure
 }
 
+h1 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 300%;
+}
+
 /* Main Content */
 main {
     background-color: black;
