@@ -120,13 +120,13 @@ nav li {
 .active {
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: rgb(243, 240, 240)
+    text-decoration-color: rgb(243, 240, 240);
 }
 
 button:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: rgb(243, 240, 240)
+    text-decoration-color: rgb(243, 240, 240);
 }
 
 /* Main Content */
@@ -137,6 +137,12 @@ main {
     flex: 1 0 auto;
     /* Push Main content down in line with headers bottom margin */
     margin-top: 68px;
+}
+
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/d2\ hero\ img.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
