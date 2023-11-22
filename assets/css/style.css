@@ -144,7 +144,7 @@ main {
     width: 100%;
     background: url("../images/d2\ hero\ img.jpg") no-repeat center center/cover;
     border: solid;
-    border-color: blac
+    border-color: black
 }
 
 #trials-logo {
@@ -175,6 +175,18 @@ main {
 
 #about-us-info h2 {
     text-decoration: underline;
+}
+
+#who-we-are {
+    color: rgb(28 112 209);
+}
+
+#what-we-offer {
+    color: rgb(159 45 45);
+}
+
+#prices {
+    color: rgb(26 113 9);
 }
 
 /* Footer */
