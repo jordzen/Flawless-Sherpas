@@ -167,6 +167,7 @@ main {
     text-align: center;
     font-size: 8px;
     padding: 0 20px;
+    margin-bottom: 20px;
 }
 
 #about-us-info ul {
@@ -307,7 +308,7 @@ footer {
         display: flex;
         justify-content: center;
         text-align: center;
-        gap: 140px;
-        padding-left: 140px;
+        gap: 160px;
+        padding-left: 120px;
     }
 }
