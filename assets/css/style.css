@@ -198,6 +198,7 @@ footer {
 /* Responsive Design for Laptops and larger */
 @media screen and (min-width: 992px) {
 
+    /* Header */
     header h1 {
         font-size: 48px;
         padding-left: 40px;
@@ -208,7 +209,14 @@ footer {
         padding-left: 160px;
     }
 
+    /* Navbar */
     #navbar {
         padding: 105px 40px 5px 0;
+    }
+
+    /* Main */
+    main {
+        /* Push Main content down for increase size in header */
+        margin-top: 142px;
     }
 }
