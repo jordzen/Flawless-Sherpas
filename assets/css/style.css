@@ -159,6 +159,22 @@ main {
     color: #c9c729d1;
 }
 
+#about-us-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8px;
+    padding: 0 20px;
+}
+
+#about-us-info ul {
+    list-style-position: inside
+}
+
+#about-us-info h2 {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background-color: rgb(224 227 227);
@@ -172,6 +188,15 @@ footer {
     font-size: 30px;
     list-style-type: none;
     padding: 10px 20% 10px 20%;
+}
+
+/* Responsive Design for large mobiles and larger */
+@media screen and (min-width: 425px) {
+    #about-us-info {
+        gap: 40px;
+        font-size: 10px;
+    }
+
 }
 
 /* Responsive Design for Tablets and larger */
@@ -229,6 +254,14 @@ footer {
     #about-us {
         font-size: 25px;
     }
+
+    #about-us-info {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        gap: 25px;
+    }
 }
 
 /* Responsive Design for Laptops and larger */
@@ -254,5 +287,13 @@ footer {
     main {
         /* Push Main content down for increase size in header */
         margin-top: 142px;
+    }
+
+    #about-us-info {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 140px;
+        padding-left: 140px;
     }
 }
