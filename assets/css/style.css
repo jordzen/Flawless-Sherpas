@@ -142,6 +142,15 @@ footer {
     color: black;
 }
 
+#contact-us {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    list-style-type: none;
+    padding: 10px 20% 10px 20%;
+}
+
 /* Responsive Design for Tablets and larger */
 @media screen and (min-width: 768px) {
 
