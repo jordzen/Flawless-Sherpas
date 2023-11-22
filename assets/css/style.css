@@ -26,9 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     height: fit-content;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 5px;
-    box-shadow: 0 2px 12px 8px #92957b;
+    box-shadow: 0 2px 20px 17px #92957b;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
