@@ -145,6 +145,20 @@ main {
     background: url("../images/d2\ hero\ img.jpg") no-repeat center center/cover;
 }
 
+#trials-logo {
+    height: 300px;
+    width: 100%;
+    background: url("../images/trials\ logo.png") no-repeat center center;
+    background-size: contain;
+}
+
+#about-us {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 90px;
+    color: #c9c729d1;
+}
+
 /* Footer */
 footer {
     background-color: rgb(224 227 227);
@@ -210,6 +224,10 @@ footer {
     main {
         /* Push Main content down for increase size in header */
         margin-top: 100px;
+    }
+
+    #about-us {
+        font-size: 25px;
     }
 }
 
