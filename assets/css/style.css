@@ -1,7 +1,6 @@
 /* Google Import Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Chakra+Petch:wght@300&family=Darker+Grotesque:wght@500&family=Maven+Pro:wght@400;500;600&family=Racing+Sans+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Chakra+Petch:wght@300&family=Darker+Grotesque:wght@500&family=Maven+Pro:wght@400;500;600&family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -17,40 +16,42 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: "Maven Pro", sans-serif;
 }
 
 /* Header */
 header {
-    background-color: rgb(199, 201, 201);
+    background-color: rgb(224 227 227);
     position: fixed;
     z-index: 99;
     width: 100%;
     height: fit-content;
-    border: groove;
-    box-shadow: 0 2px 12px 8px #ffffff;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px 8px #92957b;
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: flex-start;
 }
 
 header h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     padding-left: 5px;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 23px;
-    color: black
+    color: black;
 }
 
 header h3 {
     padding-left: 60px;
-    font-family: 'Oswald', sans-serif;
+    padding-bottom: 5px;
+    font-family: "Oswald", sans-serif;
     text-decoration: underline;
     font-size: 22px;
+    color: black;
 }
 
 header>a {
@@ -60,13 +61,15 @@ header>a {
 
 /* Navbar */
 nav {
-    background-color: rgb(199, 201, 201);
+    background-color: rgb(224 227 227);
     position: absolute;
     width: 100%;
-    box-shadow: 0 2px 2px #ffffff;
-    list-style-type: none;
     display: none;
     top: 100%;
+}
+
+nav li {
+    list-style-type: none;
 }
 
 #navbar-toggle {
@@ -83,45 +86,129 @@ nav {
     font-size: 2rem;
 }
 
+/* Navbar Buttons */
+
 #about {
-    background-color: rgb(23, 63, 109);
+    background-color: rgb(28 112 209);
     color: #ffffff;
     padding: 3px 35px 3px 30px;
     box-shadow: 2px 2px 2px #3a3a3a;
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: 36px;
     border-radius: 5px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(243, 240, 240)
 }
 
 #how-it-works {
-    background-color: rgb(110, 42, 42);
+    background-color: rgb(159 45 45);
     color: #ffffff;
     padding: 3px 8px 3px 10px;
     box-shadow: 2px 2px 2px #3a3a3a;
-    margin-left: 55px;
+    margin-left: 36px;
     border-radius: 5px;
 }
 
 #sign-up {
-    background-color: rgb(37, 77, 29);
+    background-color: rgb(26 113 9);
     color: #ffffff;
     padding: 3px 26px 3px 27px;
     box-shadow: 2px 2px 2px #3a3a3a;
-    margin-left: 55px;
+    margin-left: 36px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
+button:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(243, 240, 240)
+}
 
 /* Main Content */
 main {
     background-color: rgb(39, 38, 38);
+    color: #ffffff;
     /* make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 73px;
+    /* Push Main content down in line with headers bottom margin */
+    margin-top: 68px;
 }
 
 /* Footer */
 footer {
-    background-color: rgb(199, 201, 201);
+    background-color: rgb(224 227 227);
+    color: black;
+}
+
+/* Responsive Design for Tablets and larger */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    header h1 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    header h3 {
+        font-size: 28px;
+        padding-left: 75px;
+    }
+
+    header>a {
+        padding-left: 50px;
+    }
+
+    /* Navbar */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #navbar {
+        padding: 65px 20px 5px 0;
+        display: flex;
+    }
+
+    .navbar-toggle-label {
+        display: none;
+    }
+
+    #about {
+        margin: 0;
+    }
+
+    #how-it-works {
+        margin-left: 10px;
+    }
+
+    #sign-up {
+        margin-left: 10px;
+    }
+
+    /* Main */
+    main {
+        /* Push Main content down for increase size in header */
+        margin-top: 100px;
+    }
+}
+
+/* Responsive Design for Laptops and larger */
+@media screen and (min-width: 992px) {
+
+    header h1 {
+        font-size: 48px;
+        padding-left: 40px;
+    }
+
+    header h3 {
+        font-size: 40px;
+        padding-left: 160px;
+    }
+
+    #navbar {
+        padding: 105px 40px 5px 0;
+    }
 }
