@@ -159,6 +159,7 @@ main {
     position: relative;
 }
 
+
 #cover-text {
     background-color: rgb(89 84 84 / 76%);
     font-size: 130%;
@@ -255,6 +256,25 @@ main {
 
 #about-us-discord-link p:hover {
     color: #ffffff;
+}
+
+/* Second page Main */
+
+#hero2 {
+    height: 350px;
+    width: 100%;
+    background: url("../images/heroooo2.jpg") no-repeat center center/cover;
+    border: solid;
+    border-color: black;
+    position: relative;
+}
+
+#trials-logo2 {
+    height: 200px;
+    width: 100%;
+    background: url("../images/trials\ logo\ 2.png") no-repeat center center;
+    background-size: contain;
+    margin-top: 350px;
 }
 
 /* Footer */
