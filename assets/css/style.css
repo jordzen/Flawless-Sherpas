@@ -412,6 +412,14 @@ footer {
         padding: 0 20px;
     }
 
+    #intro {
+        padding-left: 35px;
+    }
+
+    #about-us-discord-link {
+        padding-left: 35px;
+    }
+
     /* How it works Main */
 
     #how-it-works-info {
@@ -495,6 +503,26 @@ footer {
         /* How it works Main */
         #how-it-works-info {
             font-size: 12px;
+        }
+
+        #how-it-works-info>div {
+            padding: 0 50px;
+        }
+    }
+
+    /* Responsive Design for Large Laptops and larger */
+    @media screen and (min-width: 1200px) {
+        #about-us-info {
+            font-size: 15px;
+        }
+
+        #about-us-info>div {
+            padding: 0 50px;
+        }
+
+        /* How it works Main */
+        #how-it-works-info {
+            font-size: 15px;
         }
 
         #how-it-works-info>div {
