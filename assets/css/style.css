@@ -153,7 +153,7 @@ main {
 }
 
 #hero {
-    height: 400px;
+    height: 300px;
     width: 100%;
     background: url("../images/d2\ hero\ img.jpg") no-repeat center center/cover;
     border: solid;
@@ -199,11 +199,12 @@ main {
     list-style-type: circle;
     list-style-position: inside;
     display: inline-grid;
+    margin-top: 20px;
 }
 
 #about-us-info ul {
     text-align: left;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 #who-we-are {
@@ -296,7 +297,7 @@ main {
 
 #how-it-works-info ul {
     text-align: left;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 #join-our-discord {
@@ -315,17 +316,17 @@ main {
 }
 
 .fa-solid.fa-door-open {
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(28 112 209);
 }
 
 .fa-solid.fa-comments {
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(159 45 45);
 }
 
 .fa-solid.fa-desktop {
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(26 113 9);
 }
 
@@ -401,96 +402,103 @@ footer {
     }
 
     #about-us-info {
-        font-size: 12px;
+        font-size: 10px;
+        justify-content: center;
+        display: flex;
+        gap: 0;
     }
 
-    #about-us-info ul {
-        padding-left: 15px;
+    #about-us-info>div {
+        padding: 0 20px;
     }
 
-    /* How it Works Main */
+    /* How it works Main */
 
-    #how-it-works-info {}
-
-}
-
-
-/* Responsive Design for Laptops and larger */
-@media screen and (min-width: 992px) {
-
-    /* Header */
-    header h1 {
-        font-size: 48px;
-        padding-left: 40px;
+    #how-it-works-info {
+        font-size: 10px;
+        justify-content: center;
+        display: flex;
+        gap: 0;
     }
 
-    header h3 {
-        font-size: 40px;
-        padding-left: 160px;
+    #how-it-works-info>div {
+        padding: 0 20px;
     }
 
-    /* Navbar */
-    #navbar {
-        padding: 105px 40px 5px 0;
-    }
+    /* Responsive Design for Laptops and larger */
+    @media screen and (min-width: 992px) {
 
-    /* Main */
-    main {
-        /* Push Main content down for increase size in header */
-        margin-top: 150px;
-    }
+        /* Header */
+        header h1 {
+            font-size: 48px;
+            padding-left: 40px;
+        }
 
-    #cover-text {
-        font-size: 250%;
-        bottom: 18px;
-        left: 15px;
-        height: 50px;
-        width: 360px;
-        padding-left: 5px;
-        padding-bottom: 55px;
-    }
+        header h3 {
+            font-size: 40px;
+            padding-left: 160px;
+        }
 
-    #about-us-info {
-        font-size: 12px;
-        padding-left: 10%;
-        gap: 14.5%;
-    }
+        /* Navbar */
+        #navbar {
+            padding: 105px 40px 5px 0;
+        }
 
-    #trials-logo {
-        height: 300px
-    }
+        /* Main */
+        main {
+            /* Push Main content down for increase size in header */
+            margin-top: 150px;
+        }
 
-    .fa-discord:before {
-        font-size: 70px;
-    }
+        #cover-text {
+            font-size: 250%;
+            bottom: 18px;
+            left: 15px;
+            height: 50px;
+            width: 360px;
+            padding-left: 5px;
+            padding-bottom: 55px;
+        }
 
-    .fa-hand-holding-dollar:before,
-    .fa-hand-holding-usd:before {
-        font-size: 22px;
-        color: rgb(26 113 9);
-    }
+        #trials-logo {
+            height: 200px
+        }
 
-    .fa-user:before {
-        font-size: 22px;
-        color: rgb(28 112 209);
-    }
+        .fa-discord:before {
+            font-size: 70px;
+        }
 
-    .fa-gift:before {
-        font-size: 22px;
-        color: rgb(159 45 45);
-    }
-}
+        .fa-hand-holding-dollar:before,
+        .fa-hand-holding-usd:before {
+            font-size: 22px;
+            color: rgb(26 113 9);
+        }
 
-/* Responsive Design for large laptops and larger */
-@media screen and (min-width: 1200px) {
+        .fa-user:before {
+            font-size: 22px;
+            color: rgb(28 112 209);
+        }
 
-    .fa-discord:before {
-        font-size: 100px;
-    }
+        .fa-gift:before {
+            font-size: 22px;
+            color: rgb(159 45 45);
+        }
 
-    #about-us-info {
-        font-size: 14px;
-        padding-left: 10%;
-        gap: 15%;
+        #about-us-info {
+            font-size: 12px;
+        }
+
+        #about-us-info>div {
+            padding: 0 50px;
+        }
+
+        /* How it works Main */
+        #how-it-works-info {
+            font-size: 12px;
+        }
+
+        #how-it-works-info>div {
+            padding: 0 50px;
+        }
     }
 }
