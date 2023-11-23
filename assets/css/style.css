@@ -330,6 +330,31 @@ main {
     color: rgb(26 113 9);
 }
 
+#discord-visuals {
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#discord-video {
+    color: rgb(28 112 209);
+    text-decoration: underline;
+}
+
+#discord-reviews {
+    color: rgb(26 113 9);
+    text-decoration: underline;
+}
+
+div#discord-video {
+    padding-bottom: 150px;
+}
+
+div#discord-reviews {
+    padding-bottom: 100px;
+}
+
 /* Footer */
 footer {
     background-color: rgb(224 227 227);
@@ -436,6 +461,20 @@ footer {
 
     #trials-logo2 {
         margin-top: 400px;
+    }
+
+    #discord-visuals {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    div#discord-video {
+        padding-right: 50px;
+    }
+
+    div#discord-reviews {
+        padding-left: 50px;
     }
 
     /* Responsive Design for Laptops and larger */
@@ -547,6 +586,10 @@ footer {
 
         .fa-solid.fa-comments {
             font-size: 25px;
+        }
+
+        #discord-visuals {
+            margin-top: 60px;
         }
 
     }
