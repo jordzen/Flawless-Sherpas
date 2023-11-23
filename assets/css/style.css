@@ -169,6 +169,7 @@ main {
     height: 45px;
     width: 180px;
     font-family: "Oswald", sans-serif;
+    padding-left: 3px;
 }
 
 #trials-logo {
