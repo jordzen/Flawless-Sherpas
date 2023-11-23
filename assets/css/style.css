@@ -348,13 +348,10 @@ footer {
 /* Responsive Design for large laptops and larger */
 @media screen and (min-width: 1200px) {
     #about-us-info {
-        gap: 150px;
+        gap: 170px;
         font-size: 16px;
         padding-right: 0;
-        padding-left: 100px;
+        padding-left: 120px;
     }
 
-    #about-us-info ul {
-        padding-left: 26px;
-    }
 }
