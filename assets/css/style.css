@@ -176,15 +176,17 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 8px;
-    padding: 0 10px;
+    font-size: 6px;
+    padding: 0 0 0 5px;
     margin-bottom: 200px;
     list-style-position: inside;
+    gap: 20px;
 }
 
 #about-us-info ul {
     text-align: left;
-    padding-left: 18px;
+    padding-left: 5px;
+    list-style-type: circle;
 }
 
 #who-we-are {
@@ -239,7 +241,7 @@ footer {
 /* Responsive Design for large mobiles and larger */
 @media screen and (min-width: 425px) {
     #about-us-info {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -301,12 +303,10 @@ footer {
 
     #about-us-info {
         font-size: 12px;
-        gap: 25px;
-    }
-
-    #about-us-info ul {
+        gap: 70px;
         padding-left: 40px;
     }
+
 }
 
 /* Responsive Design for Laptops and larger */
@@ -335,13 +335,9 @@ footer {
     }
 
     #about-us-info {
-        gap: 100px;
-        padding-left: 80px;
-        font-size: 15px;
-    }
-
-    #about-us-info ul {
-        padding-left: 35px;
+        gap: 140px;
+        padding-left: 90px;
+        font-size: 13px;
     }
 
     #trials-logo {
