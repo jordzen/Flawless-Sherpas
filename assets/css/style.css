@@ -191,16 +191,15 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 6px;
-    padding: 0 0 0 5px;
+    font-size: 5.7px;
+    padding: 0 0 0 5%;
     margin-bottom: 150px;
     list-style-position: inside;
-    gap: 20px;
+    gap: 9%;
 }
 
 #about-us-info ul {
     text-align: left;
-    padding-left: 5px;
     list-style-type: circle;
 }
 
@@ -344,7 +343,8 @@ footer {
 /* Responsive Design for large mobiles and larger */
 @media screen and (min-width: 425px) {
     #about-us-info {
-        font-size: 9px;
+        font-size: 8px;
+        padding-left: 4%;
     }
 }
 
@@ -406,11 +406,14 @@ footer {
 
     #about-us-info {
         font-size: 12px;
-        gap: 70px;
-        padding-left: 40px;
+    }
+
+    #about-us-info ul {
+        padding-left: 15px;
     }
 
 }
+
 
 /* Responsive Design for Laptops and larger */
 @media screen and (min-width: 992px) {
@@ -448,9 +451,9 @@ footer {
     }
 
     #about-us-info {
-        gap: 140px;
-        padding-left: 90px;
-        font-size: 13px;
+        font-size: 12px;
+        padding-left: 10%;
+        gap: 14.5%;
     }
 
     #trials-logo {
@@ -480,14 +483,14 @@ footer {
 
 /* Responsive Design for large laptops and larger */
 @media screen and (min-width: 1200px) {
-    #about-us-info {
-        gap: 170px;
-        font-size: 16px;
-        padding-right: 0;
-        padding-left: 120px;
-    }
 
     .fa-discord:before {
         font-size: 100px;
+    }
+
+    #about-us-info {
+        font-size: 14px;
+        padding-left: 11%;
+        gap: 15%;
     }
 }
