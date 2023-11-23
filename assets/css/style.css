@@ -1,8 +1,10 @@
 /* Google Import Fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Chakra+Petch:wght@300&family=Darker+Grotesque:wght@500&family=Maven+Pro:wght@400;500;600&family=Racing+Sans+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
+
 * {
     padding: 0;
     margin: 0;
@@ -10,16 +12,20 @@
 }
 
 /* General styles */
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     /* Generic project styles */
+
     color: #3a3a3a;
     font-family: "Maven Pro", sans-serif;
 }
 
 /* Header */
+
 header {
     background-color: rgb(224 227 227);
     position: fixed;
@@ -60,6 +66,7 @@ header>a {
 }
 
 /* Navbar */
+
 nav {
     background-color: rgb(224 227 227);
     position: absolute;
@@ -130,12 +137,16 @@ button:hover {
 }
 
 /* Main Content */
+
 main {
     background-color: rgb(39, 38, 38);
     color: #ffffff;
+
     /* make main element take up any surplus space to push footer down*/
+
     flex: 1 0 auto;
     /* Push Main content down in line with headers bottom margin */
+
     margin-top: 68px;
 }
 
@@ -144,11 +155,11 @@ main {
     width: 100%;
     background: url("../images/d2\ hero\ img.jpg") no-repeat center center/cover;
     border: solid;
-    border-color: black
+    border-color: black;
 }
 
 #trials-logo {
-    height: 300px;
+    height: 200px;
     width: 100%;
     background: url("../images/trials\ logo.png") no-repeat center center;
     background-size: contain;
@@ -166,29 +177,49 @@ main {
     justify-content: center;
     text-align: center;
     font-size: 8px;
-    padding: 0 20px;
-    margin-bottom: 20px;
+    padding: 0 10px;
+    margin-bottom: 200px;
+    list-style-position: inside;
 }
 
 #about-us-info ul {
-    list-style-position: inside
-}
-
-#about-us-info h2 {
-    text-decoration: underline;
+    text-align: left;
+    padding-left: 18px;
 }
 
 #who-we-are {
     color: rgb(28 112 209);
+    text-decoration: underline;
 }
 
 #what-we-offer {
     color: rgb(159 45 45);
+    text-decoration: underline;
 }
 
 #prices {
     color: rgb(26 113 9);
+    text-decoration: underline;
 }
+
+/* about us info icons*/
+
+.fa-hand-holding-dollar:before,
+.fa-hand-holding-usd:before {
+    font-size: 17px;
+    color: rgb(26 113 9);
+}
+
+.fa-user:before {
+    font-size: 17px;
+    color: rgb(28 112 209);
+}
+
+.fa-gift:before {
+    font-size: 17px;
+    color: rgb(159 45 45);
+}
+
 
 /* Footer */
 footer {
@@ -208,10 +239,8 @@ footer {
 /* Responsive Design for large mobiles and larger */
 @media screen and (min-width: 425px) {
     #about-us-info {
-        gap: 40px;
         font-size: 10px;
     }
-
 }
 
 /* Responsive Design for Tablets and larger */
@@ -271,11 +300,12 @@ footer {
     }
 
     #about-us-info {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: 15px;
+        font-size: 12px;
         gap: 25px;
+    }
+
+    #about-us-info ul {
+        padding-left: 40px;
     }
 }
 
@@ -305,10 +335,30 @@ footer {
     }
 
     #about-us-info {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        gap: 160px;
-        padding-left: 120px;
+        gap: 100px;
+        padding-left: 80px;
+        font-size: 15px;
+    }
+
+    #about-us-info ul {
+        padding-left: 35px;
+    }
+
+    #trials-logo {
+        height: 300px
+    }
+}
+
+/* Responsive Design for large laptops and larger */
+@media screen and (min-width: 1200px) {
+    #about-us-info {
+        gap: 150px;
+        font-size: 16px;
+        padding-right: 0;
+        padding-left: 100px;
+    }
+
+    #about-us-info ul {
+        padding-left: 26px;
     }
 }
