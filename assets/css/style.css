@@ -253,11 +253,12 @@ main {
 
 .fa-discord:before {
     font-size: 50px;
+    color: rgb(92 81 245);
 }
 
 #about-us-discord-link p {
     font-weight: 900;
-    color: #5396c7;
+    color: #8a88f9;
     text-decoration: underline;
 }
 
