@@ -222,6 +222,8 @@ main {
     color: rgb(159 45 45);
 }
 
+/* Home page discord link */
+
 #about-us-discord-link {
     text-align: center;
     margin-bottom: 200px;
@@ -364,6 +366,22 @@ footer {
 
     .fa-discord:before {
         font-size: 70px;
+    }
+
+    .fa-hand-holding-dollar:before,
+    .fa-hand-holding-usd:before {
+        font-size: 22px;
+        color: rgb(26 113 9);
+    }
+
+    .fa-user:before {
+        font-size: 22px;
+        color: rgb(28 112 209);
+    }
+
+    .fa-gift:before {
+        font-size: 22px;
+        color: rgb(159 45 45);
     }
 }
 
