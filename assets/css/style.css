@@ -156,6 +156,19 @@ main {
     background: url("../images/d2\ hero\ img.jpg") no-repeat center center/cover;
     border: solid;
     border-color: black;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgb(89 84 84 / 76%);
+    font-size: 130%;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+    color: #e7e746;
+    height: 45px;
+    width: 180px;
+    font-family: "Oswald", sans-serif;
 }
 
 #trials-logo {
