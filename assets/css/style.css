@@ -365,7 +365,7 @@ footer {
     /* Main */
     main {
         /* Push Main content down for increase size in header */
-        margin-top: 142px;
+        margin-top: 150px;
     }
 
     #cover-text {
@@ -421,5 +421,4 @@ footer {
     .fa-discord:before {
         font-size: 100px;
     }
-
 }
