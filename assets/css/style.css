@@ -148,6 +148,8 @@ main {
     /* Push Main content down in line with headers bottom margin */
 
     margin-top: 68px;
+    display: flex;
+    flex-direction: column;
 }
 
 #hero {
@@ -157,6 +159,7 @@ main {
     border: solid;
     border-color: black;
     position: relative;
+    display: flex;
 }
 
 
@@ -174,33 +177,33 @@ main {
 }
 
 #trials-logo {
-    height: 200px;
+    height: 150px;
     width: 100%;
-    background: url("../images/trials\ logo.png") no-repeat center center;
+    background: url(../images/trials\ logo.png) no-repeat center center;
     background-size: contain;
 }
 
 #about-us {
     text-align: center;
     font-size: 15px;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
     color: #c9c729d1;
 }
 
 #about-us-info {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 10px;
+    justify-content: space-evenly;
     text-align: center;
-    font-size: 5.7px;
-    padding: 0 0 0 5%;
-    margin-bottom: 150px;
+    gap: 7%;
+    list-style-type: circle;
     list-style-position: inside;
-    gap: 9%;
+    display: inline-grid;
 }
 
 #about-us-info ul {
     text-align: left;
-    list-style-type: circle;
+    padding-left: 5px;
 }
 
 #who-we-are {
@@ -240,7 +243,8 @@ main {
 
 #about-us-discord-link {
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    margin-top: 30px;
 }
 
 .fa-discord:before {
@@ -257,37 +261,37 @@ main {
     color: #ffffff;
 }
 
-/* Second page Main */
+/* How It Works Main */
 
 #hero2 {
     height: 350px;
     width: 100%;
-    background: url("../images/heroooo2.jpg") no-repeat center center/cover;
+    background: url(../images/heroooo2.jpg) no-repeat center center/cover;
     border: solid;
     border-color: black;
     position: relative;
+    display: flex;
+    margin-bottom: 150px;
 }
 
 #trials-logo2 {
-    height: 200px;
     width: 100%;
-    background: url("../images/trials\ logo\ 2.png") no-repeat center center;
+    background: url(../images/trials\ logo\ 2.png) no-repeat center center;
     background-size: contain;
+    height: 150px;
     margin-top: 350px;
 }
 
 
 #how-it-works-info {
-    display: flex;
-    margin-top: 180px;
     margin-bottom: 100px;
-    font-size: 6px;
-    justify-content: space-between;
+    font-size: 10px;
+    justify-content: space-evenly;
     text-align: center;
-    padding: 0 0% 0 4%;
-    gap: 15px;
+    gap: 10%;
     list-style-type: circle;
     list-style-position: inside;
+    display: inline-grid;
 }
 
 #how-it-works-info ul {
@@ -338,14 +342,6 @@ footer {
     font-size: 30px;
     list-style-type: none;
     padding: 10px 20% 10px 20%;
-}
-
-/* Responsive Design for large mobiles and larger */
-@media screen and (min-width: 425px) {
-    #about-us-info {
-        font-size: 8px;
-        padding-left: 4%;
-    }
 }
 
 /* Responsive Design for Tablets and larger */
@@ -411,6 +407,10 @@ footer {
     #about-us-info ul {
         padding-left: 15px;
     }
+
+    /* How it Works Main */
+
+    #how-it-works-info {}
 
 }
 
@@ -490,7 +490,7 @@ footer {
 
     #about-us-info {
         font-size: 14px;
-        padding-left: 11%;
+        padding-left: 10%;
         gap: 15%;
     }
 }
