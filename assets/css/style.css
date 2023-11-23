@@ -160,6 +160,8 @@ main {
     border-color: black;
     position: relative;
     display: flex;
+    box-shadow: 1px 1px 20px 11px;
+    color: rgb(83 121 165);
 }
 
 
@@ -169,11 +171,12 @@ main {
     position: absolute;
     bottom: 18px;
     left: 15px;
-    color: #e7e746;
+    color: #e9e949;
     height: 45px;
     width: 180px;
     font-family: "Oswald", sans-serif;
     padding-left: 3px;
+    box-shadow: 2px 2px 14px 4px;
 }
 
 #trials-logo {
@@ -273,6 +276,8 @@ main {
     position: relative;
     display: flex;
     margin-bottom: 180px;
+    box-shadow: 1px 1px 20px 11px;
+    color: rgb(83 121 165);
 }
 
 #trials-logo2 {
