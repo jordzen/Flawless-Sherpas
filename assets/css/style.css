@@ -347,13 +347,17 @@ main {
     text-decoration: underline;
 }
 
+#discord-reviews {
+    margin-top: 100px;
+    display: block;
+    align-self: center;
+}
 
 #reviews-title {
     color: rgb(26 113 9);
     text-decoration: underline;
-    margin-top: 30px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 #review-photos img {
@@ -473,6 +477,10 @@ footer {
 
     #trials-logo2 {
         margin-top: 400px;
+    }
+
+    #review-photos img {
+        padding: 0 20px;
     }
 
     /* Responsive Design for Laptops and larger */
