@@ -386,6 +386,19 @@ footer {
     padding: 10px 20% 10px 20%;
 }
 
+iframe {
+    width: 250px;
+    height: 150px;
+}
+
+/* Responsive Design for large phones and larger */
+@media screen and (min-width: 400px) {
+    iframe {
+        width: 350px;
+        height: 250px;
+    }
+}
+
 /* Responsive Design for Tablets and larger */
 @media screen and (min-width: 768px) {
 
@@ -481,6 +494,11 @@ footer {
 
     #review-photos img {
         padding: 0 20px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 300px;
     }
 
     /* Responsive Design for Laptops and larger */
