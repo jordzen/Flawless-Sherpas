@@ -42,7 +42,8 @@ header {
 
 header h1 {
     font-family: "Oswald", sans-serif;
-    padding-left: 5px;
+    padding-left: 8px;
+    padding-top: 15px;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -51,8 +52,8 @@ header h1 {
 }
 
 header h2 {
-    padding-left: 60px;
-    padding-bottom: 5px;
+    padding-left: 64px;
+    padding-bottom: 12px;
     font-family: "Oswald", sans-serif;
     text-decoration: underline;
     font-size: 22px;
@@ -493,6 +494,10 @@ iframe {
         padding: 0 20px;
     }
 
+    h3 {
+        padding-bottom: 25px;
+    }
+
     iframe {
         width: 500px;
         height: 300px;
@@ -520,7 +525,7 @@ iframe {
         /* Main */
         main {
             /* Push Main content down for increase size in header */
-            margin-top: 150px;
+            margin-top: 156px;
         }
 
         #cover-text {
@@ -622,6 +627,7 @@ iframe {
 
         h3 {
             font-size: 30px;
+            padding-bottom: 80px;
         }
 
         iframe {
