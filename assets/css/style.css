@@ -1,661 +1,655 @@
 /* Google Import Fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Chakra+Petch:wght@300&family=Darker+Grotesque:wght@500&family=Maven+Pro:wght@400;500;600&family=Racing+Sans+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Chakra+Petch:wght@300&family=Oswald:wght@600&family=Darker+Grotesque:wght@500&family=Maven+Pro:wght@400;500;600&family=Racing+Sans+One&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* General styles */
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
-    /* Generic project styles */
+  /* Generic project styles */
 
-    color: #3a3a3a;
-    font-family: "Maven Pro", sans-serif;
+  color: #3a3a3a;
+  font-family: "Maven Pro", sans-serif;
 }
 
 /* Header */
 
 header {
-    background-color: rgb(224 227 227);
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    height: fit-content;
-    border: 2px solid;
-    border-radius: 5px;
-    box-shadow: 0 2px 20px 17px #92957b;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
+  background-color: rgb(224 227 227);
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: fit-content;
+  border: 2px solid;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px 17px #92957b;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 header h1 {
-    font-family: "Oswald", sans-serif;
-    padding-left: 5px;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 23px;
-    color: black;
+  font-family: "Oswald", sans-serif;
+  padding-left: 5px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 23px;
+  color: black;
 }
 
 header h3 {
-    padding-left: 60px;
-    padding-bottom: 5px;
-    font-family: "Oswald", sans-serif;
-    text-decoration: underline;
-    font-size: 22px;
-    color: black;
+  padding-left: 60px;
+  padding-bottom: 5px;
+  font-family: "Oswald", sans-serif;
+  text-decoration: underline;
+  font-size: 22px;
+  color: black;
 }
 
-header>a {
-    text-decoration: none;
-    color: #3a3a3a;
+header > a {
+  text-decoration: none;
+  color: #3a3a3a;
 }
 
 /* Navbar */
 
 nav {
-    background-color: rgb(224 227 227);
-    position: absolute;
-    width: 100%;
-    display: none;
-    top: 100%;
+  background-color: rgb(224 227 227);
+  position: absolute;
+  width: 100%;
+  display: none;
+  top: 100%;
 }
 
 nav li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #navbar-toggle {
-    display: none;
+  display: none;
 }
 
 .navbar-toggle-label {
-    padding-right: 12px;
-    font-size: 40px;
+  padding-right: 12px;
+  font-size: 40px;
 }
 
-#navbar-toggle:checked~nav {
-    display: block;
-    font-size: 2rem;
+#navbar-toggle:checked ~ nav {
+  display: block;
+  font-size: 2rem;
 }
 
 /* Navbar Buttons */
 
 #about {
-    background-color: rgb(28 112 209);
-    color: #ffffff;
-    padding: 3px 35px 3px 30px;
-    box-shadow: 2px 2px 2px #3a3a3a;
-    margin-top: 20px;
-    margin-left: 36px;
-    border-radius: 5px;
+  background-color: rgb(28 112 209);
+  color: #ffffff;
+  padding: 3px 35px 3px 30px;
+  box-shadow: 2px 2px 2px #3a3a3a;
+  margin-top: 20px;
+  margin-left: 36px;
+  border-radius: 5px;
 }
 
 #how-it-works {
-    background-color: rgb(159 45 45);
-    color: #ffffff;
-    padding: 3px 8px 3px 10px;
-    box-shadow: 2px 2px 2px #3a3a3a;
-    margin-left: 36px;
-    border-radius: 5px;
+  background-color: rgb(159 45 45);
+  color: #ffffff;
+  padding: 3px 8px 3px 10px;
+  box-shadow: 2px 2px 2px #3a3a3a;
+  margin-left: 36px;
+  border-radius: 5px;
 }
 
 #sign-up {
-    background-color: rgb(26 113 9);
-    color: #ffffff;
-    padding: 3px 26px 3px 27px;
-    box-shadow: 2px 2px 2px #3a3a3a;
-    margin-left: 36px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  background-color: rgb(26 113 9);
+  color: #ffffff;
+  padding: 3px 26px 3px 27px;
+  box-shadow: 2px 2px 2px #3a3a3a;
+  margin-left: 36px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .active {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: rgb(243, 240, 240);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgb(243, 240, 240);
 }
 
 button:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: rgb(243, 240, 240);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgb(243, 240, 240);
 }
 
 /* Main Content */
 
 main {
-    background-color: rgb(39, 38, 38);
-    color: #ffffff;
+  background-color: rgb(39, 38, 38);
+  color: #ffffff;
 
-    /* make main element take up any surplus space to push footer down*/
+  /* make main element take up any surplus space to push footer down*/
 
-    flex: 1 0 auto;
-    /* Push Main content down in line with headers bottom margin */
+  flex: 1 0 auto;
+  /* Push Main content down in line with headers bottom margin */
 
-    margin-top: 68px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
 }
 
 #hero {
-    height: 300px;
-    width: 100%;
-    background: url("../images/d2-hero-img.jpg") no-repeat center center/cover;
-    border: solid;
-    border-color: black;
-    position: relative;
-    display: flex;
-    box-shadow: 1px 1px 20px 11px;
-    color: rgb(83 121 165);
+  height: 300px;
+  width: 100%;
+  background: url("../images/d2-hero-img.jpg") no-repeat center center/cover;
+  border: solid;
+  border-color: black;
+  position: relative;
+  display: flex;
+  box-shadow: 1px 1px 20px 11px;
+  color: rgb(83 121 165);
 }
 
-
 #cover-text {
-    background-color: rgb(89 84 84 / 76%);
-    font-size: 130%;
-    position: absolute;
-    bottom: 18px;
-    left: 15px;
-    color: #e9e949;
-    height: 45px;
-    width: 180px;
-    font-family: "Oswald", sans-serif;
-    padding-left: 3px;
-    box-shadow: 2px 2px 14px 4px;
+  background-color: rgb(89 84 84 / 76%);
+  font-size: 130%;
+  position: absolute;
+  bottom: 18px;
+  left: 15px;
+  color: #e9e949;
+  height: 45px;
+  width: 180px;
+  font-family: "Oswald", sans-serif;
+  padding-left: 3px;
+  box-shadow: 2px 2px 14px 4px;
 }
 
 #trials-logo {
-    height: 150px;
-    width: 100%;
-    background: url("../images/trials-logo.png") no-repeat center center;
-    background-size: contain;
+  height: 150px;
+  width: 100%;
+  background: url("../images/trials-logo.png") no-repeat center center;
+  background-size: contain;
 }
 
 #about-us {
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 40px;
-    color: #f3f127d1;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 40px;
+  color: #f3f127d1;
 }
 
 #about-us-info {
-    margin-bottom: 100px;
-    font-size: 10px;
-    justify-content: space-evenly;
-    text-align: center;
-    gap: 7%;
-    list-style-type: circle;
-    list-style-position: inside;
-    display: inline-grid;
-    margin-top: 20px;
+  margin-bottom: 100px;
+  font-size: 10px;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 7%;
+  list-style-type: circle;
+  list-style-position: inside;
+  display: inline-grid;
+  margin-top: 20px;
 }
 
 #about-us-info ul {
-    text-align: left;
-    padding-left: 15px;
+  text-align: left;
+  padding-left: 15px;
 }
 
 #who-we-are {
-    color: rgb(28 112 209);
-    text-decoration: underline;
+  color: rgb(28 112 209);
+  text-decoration: underline;
 }
 
 #what-we-offer {
-    color: rgb(159 45 45);
-    text-decoration: underline;
+  color: rgb(159 45 45);
+  text-decoration: underline;
 }
 
 #prices {
-    color: rgb(26 113 9);
-    text-decoration: underline;
+  color: rgb(26 113 9);
+  text-decoration: underline;
 }
 
 /* about us info icons*/
 
 .fa-hand-holding-dollar:before,
 .fa-hand-holding-usd:before {
-    font-size: 17px;
-    color: rgb(26 113 9);
+  font-size: 17px;
+  color: rgb(26 113 9);
 }
 
 .fa-user:before {
-    font-size: 17px;
-    color: rgb(28 112 209);
+  font-size: 17px;
+  color: rgb(28 112 209);
 }
 
 .fa-gift:before {
-    font-size: 17px;
-    color: rgb(159 45 45);
+  font-size: 17px;
+  color: rgb(159 45 45);
 }
 
 /* Home page discord link */
 
 #about-us-discord-link {
-    text-align: center;
-    margin-bottom: 150px;
-    margin-top: 30px;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 30px;
 }
 
 .fa-discord:before {
-    font-size: 50px;
-    color: rgb(92 81 245);
+  font-size: 50px;
+  color: rgb(92 81 245);
 }
 
 #about-us-discord-link p {
-    font-weight: 900;
-    color: #8a88f9;
-    text-decoration: underline;
+  font-weight: 900;
+  color: #8a88f9;
+  text-decoration: underline;
 }
 
 #about-us-discord-link p:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* How It Works Main */
 
 #hero2 {
-    height: 350px;
-    width: 100%;
-    background: url("../images/heroooo2.jpg") no-repeat center center/cover;
-    border: solid;
-    border-color: black;
-    position: relative;
-    display: flex;
-    margin-bottom: 180px;
-    box-shadow: 1px 1px 20px 11px;
-    color: rgb(83 121 165);
+  height: 350px;
+  width: 100%;
+  background: url("../images/heroooo2.jpg") no-repeat center center/cover;
+  border: solid;
+  border-color: black;
+  position: relative;
+  display: flex;
+  margin-bottom: 180px;
+  box-shadow: 1px 1px 20px 11px;
+  color: rgb(83 121 165);
 }
 
 #trials-logo2 {
-    width: 100%;
-    background: url("../images/trials-logo-2.png") no-repeat center center;
-    background-size: contain;
-    height: 150px;
-    margin-top: 350px;
+  width: 100%;
+  background: url("../images/trials-logo-2.png") no-repeat center center;
+  background-size: contain;
+  height: 150px;
+  margin-top: 350px;
 }
 
-
 #how-it-works-info {
-    margin-bottom: 100px;
-    font-size: 10px;
-    justify-content: space-evenly;
-    text-align: center;
-    gap: 10%;
-    list-style-type: circle;
-    list-style-position: inside;
-    display: inline-grid;
+  margin-bottom: 100px;
+  font-size: 10px;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 10%;
+  list-style-type: circle;
+  list-style-position: inside;
+  display: inline-grid;
 }
 
 #how-it-works-info ul {
-    text-align: left;
-    padding-left: 15px;
+  text-align: left;
+  padding-left: 15px;
 }
 
 #join-our-discord {
-    color: rgb(28 112 209);
-    text-decoration: underline;
+  color: rgb(28 112 209);
+  text-decoration: underline;
 }
 
 #talk-to-sherpa {
-    color: rgb(159 45 45);
-    text-decoration: underline;
+  color: rgb(159 45 45);
+  text-decoration: underline;
 }
 
 #join-up {
-    color: rgb(26 113 9);
-    text-decoration: underline;
+  color: rgb(26 113 9);
+  text-decoration: underline;
 }
 
 .fa-solid.fa-door-open {
-    font-size: 15px;
-    color: rgb(28 112 209);
+  font-size: 15px;
+  color: rgb(28 112 209);
 }
 
 .fa-solid.fa-comments {
-    font-size: 15px;
-    color: rgb(159 45 45);
+  font-size: 15px;
+  color: rgb(159 45 45);
 }
 
 .fa-solid.fa-desktop {
-    font-size: 15px;
-    color: rgb(26 113 9);
+  font-size: 15px;
+  color: rgb(26 113 9);
 }
 
 #discord-visuals {
-    display: inline-block;
-    margin-top: 30px;
-    text-align: center;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: center;
 }
 
 #discord-video {
-    color: rgb(28 112 209);
-    text-decoration: underline;
+  color: rgb(28 112 209);
+  text-decoration: underline;
 }
 
 #discord-reviews {
-    margin-top: 100px;
-    display: block;
-    align-self: center;
+  margin-top: 100px;
+  display: block;
+  align-self: center;
 }
 
 #reviews-title {
-    color: rgb(26 113 9);
-    text-decoration: underline;
-    text-align: center;
-    margin-bottom: 60px;
+  color: rgb(26 113 9);
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 #review-photos img {
-    width: 100%;
-    line-height: 2em;
-    margin-bottom: 20px;
-    padding: 0 10px;
+  width: 100%;
+  line-height: 2em;
+  margin-bottom: 20px;
+  padding: 0 10px;
 }
 
 #review-photos {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 /* Footer */
 footer {
-    background-color: rgb(224 227 227);
-    color: black;
+  background-color: rgb(224 227 227);
+  color: black;
 }
 
 #contact-us {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    list-style-type: none;
-    padding: 10px 20% 10px 20%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  list-style-type: none;
+  padding: 10px 20% 10px 20%;
 }
 
 iframe {
-    width: 300px;
-    height: 200px;
+  width: 300px;
+  height: 200px;
 }
 
 /* Responsive Design for large phones and larger */
 @media screen and (min-width: 400px) {
-    iframe {
-        width: 350px;
-        height: 250px;
-    }
+  iframe {
+    width: 350px;
+    height: 250px;
+  }
 }
 
 /* Responsive Design for Tablets and larger */
 @media screen and (min-width: 768px) {
+  /* Header */
+  header h1 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
 
+  header h3 {
+    font-size: 28px;
+    padding-left: 75px;
+  }
+
+  header > a {
+    padding-left: 50px;
+  }
+
+  /* Navbar */
+  nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+  }
+
+  #navbar {
+    padding: 65px 20px 5px 0;
+    display: flex;
+  }
+
+  .navbar-toggle-label {
+    display: none;
+  }
+
+  #about {
+    margin: 0;
+  }
+
+  #how-it-works {
+    margin-left: 10px;
+  }
+
+  #sign-up {
+    margin-left: 10px;
+  }
+
+  /* Main */
+  main {
+    /* Push Main content down for increase size in header */
+    margin-top: 100px;
+  }
+
+  #about-us {
+    font-size: 25px;
+  }
+
+  #about-us-info {
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 0;
+  }
+
+  #about-us-info > div {
+    padding: 0 20px;
+  }
+
+  #intro {
+    padding-left: 35px;
+  }
+
+  #about-us-discord-link {
+    padding-left: 35px;
+  }
+
+  /* How it works Main */
+
+  #how-it-works-info {
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 0;
+    margin-top: 50px;
+  }
+
+  #how-it-works-info > div {
+    padding: 0 20px;
+  }
+
+  #trials-logo2 {
+    margin-top: 400px;
+  }
+
+  #review-photos img {
+    padding: 0 20px;
+  }
+
+  iframe {
+    width: 500px;
+    height: 300px;
+  }
+
+  /* Responsive Design for Laptops and larger */
+  @media screen and (min-width: 992px) {
     /* Header */
     header h1 {
-        font-size: 30px;
-        padding-top: 10px;
+      font-size: 48px;
+      padding-left: 40px;
     }
 
     header h3 {
-        font-size: 28px;
-        padding-left: 75px;
-    }
-
-    header>a {
-        padding-left: 50px;
+      font-size: 40px;
+      padding-left: 160px;
     }
 
     /* Navbar */
-    nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-    }
-
     #navbar {
-        padding: 65px 20px 5px 0;
-        display: flex;
-    }
-
-    .navbar-toggle-label {
-        display: none;
-    }
-
-    #about {
-        margin: 0;
-    }
-
-    #how-it-works {
-        margin-left: 10px;
-    }
-
-    #sign-up {
-        margin-left: 10px;
+      padding: 105px 40px 5px 0;
     }
 
     /* Main */
     main {
-        /* Push Main content down for increase size in header */
-        margin-top: 100px;
+      /* Push Main content down for increase size in header */
+      margin-top: 150px;
+    }
+
+    #cover-text {
+      font-size: 250%;
+      bottom: 18px;
+      left: 15px;
+      height: 50px;
+      width: 360px;
+      padding-left: 5px;
+      padding-bottom: 55px;
+    }
+
+    #trials-logo {
+      height: 200px;
+    }
+
+    .fa-discord:before {
+      font-size: 70px;
+    }
+
+    .fa-hand-holding-dollar:before,
+    .fa-hand-holding-usd:before {
+      font-size: 22px;
+      color: rgb(26 113 9);
+    }
+
+    .fa-user:before {
+      font-size: 22px;
+      color: rgb(28 112 209);
+    }
+
+    .fa-gift:before {
+      font-size: 22px;
+      color: rgb(159 45 45);
     }
 
     #about-us {
-        font-size: 25px;
+      margin-bottom: 80px;
+      margin-top: 20px;
     }
 
     #about-us-info {
-        font-size: 10px;
-        justify-content: center;
-        display: flex;
-        gap: 0;
+      font-size: 12px;
     }
 
-    #about-us-info>div {
-        padding: 0 20px;
+    #about-us-info > div {
+      padding: 0 50px;
     }
 
     #intro {
-        padding-left: 35px;
+      margin-top: 50px;
     }
 
-    #about-us-discord-link {
-        padding-left: 35px;
+    .fa-hand-holding-dollar:before,
+    .fa-hand-holding-usd:before {
+      font-size: 25px;
+    }
+
+    .fa-user:before {
+      font-size: 25px;
+    }
+
+    .fa-gift:before {
+      font-size: 25px;
     }
 
     /* How it works Main */
-
     #how-it-works-info {
-        font-size: 10px;
-        justify-content: center;
-        display: flex;
-        gap: 0;
-        margin-top: 50px;
+      font-size: 12px;
     }
 
-    #how-it-works-info>div {
-        padding: 0 20px;
+    #how-it-works-info > div {
+      padding: 0 50px;
     }
 
-    #trials-logo2 {
-        margin-top: 400px;
+    .fa-solid.fa-desktop {
+      font-size: 25px;
     }
 
-    #review-photos img {
-        padding: 0 20px;
+    .fa-solid.fa-door-open {
+      font-size: 25px;
+    }
+
+    .fa-solid.fa-comments {
+      font-size: 25px;
+    }
+
+    #discord-visuals {
+      margin-top: 60px;
+    }
+
+    .fa-handshake {
+      font-size: 25px;
+    }
+
+    .fa-house-chimney {
+      font-size: 25px;
+    }
+
+    h3 {
+      font-size: 30px;
     }
 
     iframe {
-        width: 500px;
-        height: 300px;
+      width: 700px;
+      height: 400px;
+    }
+  }
+
+  /* Responsive Design for Large Laptops and larger */
+  @media screen and (min-width: 1200px) {
+    #about-us-info {
+      font-size: 15px;
     }
 
-    /* Responsive Design for Laptops and larger */
-    @media screen and (min-width: 992px) {
-
-        /* Header */
-        header h1 {
-            font-size: 48px;
-            padding-left: 40px;
-        }
-
-        header h3 {
-            font-size: 40px;
-            padding-left: 160px;
-        }
-
-        /* Navbar */
-        #navbar {
-            padding: 105px 40px 5px 0;
-        }
-
-        /* Main */
-        main {
-            /* Push Main content down for increase size in header */
-            margin-top: 150px;
-        }
-
-        #cover-text {
-            font-size: 250%;
-            bottom: 18px;
-            left: 15px;
-            height: 50px;
-            width: 360px;
-            padding-left: 5px;
-            padding-bottom: 55px;
-        }
-
-        #trials-logo {
-            height: 200px
-        }
-
-        .fa-discord:before {
-            font-size: 70px;
-        }
-
-        .fa-hand-holding-dollar:before,
-        .fa-hand-holding-usd:before {
-            font-size: 22px;
-            color: rgb(26 113 9);
-        }
-
-        .fa-user:before {
-            font-size: 22px;
-            color: rgb(28 112 209);
-        }
-
-        .fa-gift:before {
-            font-size: 22px;
-            color: rgb(159 45 45);
-        }
-
-        #about-us {
-            margin-bottom: 80px;
-            margin-top: 20px;
-        }
-
-        #about-us-info {
-            font-size: 12px;
-        }
-
-        #about-us-info>div {
-            padding: 0 50px;
-        }
-
-        #intro {
-
-            margin-top: 50px;
-        }
-
-        .fa-hand-holding-dollar:before,
-        .fa-hand-holding-usd:before {
-            font-size: 25px;
-        }
-
-        .fa-user:before {
-            font-size: 25px;
-        }
-
-        .fa-gift:before {
-            font-size: 25px;
-        }
-
-        /* How it works Main */
-        #how-it-works-info {
-            font-size: 12px;
-        }
-
-        #how-it-works-info>div {
-            padding: 0 50px;
-        }
-
-        .fa-solid.fa-desktop {
-            font-size: 25px;
-        }
-
-        .fa-solid.fa-door-open {
-            font-size: 25px;
-        }
-
-        .fa-solid.fa-comments {
-            font-size: 25px;
-        }
-
-        #discord-visuals {
-            margin-top: 60px;
-        }
-
-        .fa-handshake {
-            font-size: 25px;
-        }
-
-        .fa-house-chimney {
-            font-size: 25px;
-        }
-
-        h3 {
-            font-size: 30px;
-        }
-
-        iframe {
-            width: 700px;
-            height: 400px;
-        }
+    #about-us-info > div {
+      padding: 0 50px;
     }
 
-    /* Responsive Design for Large Laptops and larger */
-    @media screen and (min-width: 1200px) {
-        #about-us-info {
-            font-size: 15px;
-        }
-
-        #about-us-info>div {
-            padding: 0 50px;
-        }
-
-        /* How it works Main */
-        #how-it-works-info {
-            font-size: 15px;
-        }
-
-        #how-it-works-info>div {
-            padding: 0 50px;
-        }
-
-        iframe {
-            width: 900px;
-            height: 600px;
-        }
+    /* How it works Main */
+    #how-it-works-info {
+      font-size: 15px;
     }
+
+    #how-it-works-info > div {
+      padding: 0 50px;
+    }
+
+    iframe {
+      width: 900px;
+      height: 600px;
+    }
+  }
 }
