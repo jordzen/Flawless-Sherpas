@@ -155,7 +155,7 @@ main {
 #hero {
     height: 300px;
     width: 100%;
-    background: url("../images/d2\ hero\ img.jpg") no-repeat center center/cover;
+    background: url("../images/d2-hero-img.jpg") no-repeat center center/cover;
     border: solid;
     border-color: black;
     position: relative;
@@ -182,7 +182,7 @@ main {
 #trials-logo {
     height: 150px;
     width: 100%;
-    background: url("../images/trials\ logo.png") no-repeat center center;
+    background: url("../images/trials-logo.png") no-repeat center center;
     background-size: contain;
 }
 
@@ -271,7 +271,7 @@ main {
 #hero2 {
     height: 350px;
     width: 100%;
-    background: url(../images/heroooo2.jpg) no-repeat center center/cover;
+    background: url("../images/heroooo2.jpg") no-repeat center center/cover;
     border: solid;
     border-color: black;
     position: relative;
@@ -283,7 +283,7 @@ main {
 
 #trials-logo2 {
     width: 100%;
-    background: url(../images/trials\ logo\ 2.png) no-repeat center center;
+    background: url("../images/trials-logo-2.png") no-repeat center center;
     background-size: contain;
     height: 150px;
     margin-top: 350px;
