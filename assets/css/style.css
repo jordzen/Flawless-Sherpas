@@ -367,6 +367,7 @@ main {
 
 #review-photos {
     max-width: 1000px;
+    margin-bottom: 60px;
 }
 
 /* Footer */
@@ -488,6 +489,10 @@ iframe {
 
     #trials-logo2 {
         margin-top: 400px;
+    }
+
+    #review-photos {
+        margin-bottom: 130px;
     }
 
     #review-photos img {
@@ -634,6 +639,10 @@ iframe {
             width: 700px;
             height: 400px;
         }
+
+        #review-photos {
+            margin-bottom: 180px;
+        }
     }
 
     /* Responsive Design for Large Laptops and larger */
@@ -658,6 +667,10 @@ iframe {
         iframe {
             width: 900px;
             height: 600px;
+        }
+
+        #review-photos {
+            margin-bottom: 200px;
         }
     }
 }
