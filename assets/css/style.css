@@ -370,6 +370,20 @@ main {
     margin-bottom: 60px;
 }
 
+#how-it-works-info a {
+    text-decoration: underline;
+    color: #22a8d1;
+}
+
+#how-it-works-info a:hover {
+    color: #28ce5a;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;
+}
+
 /* Footer */
 footer {
     background-color: rgb(224 227 227);
@@ -383,11 +397,6 @@ footer {
     font-size: 30px;
     list-style-type: none;
     padding: 10px 20% 10px 20%;
-}
-
-iframe {
-    width: 300px;
-    height: 200px;
 }
 
 /* Responsive Design for large phones and larger */
