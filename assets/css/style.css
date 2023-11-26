@@ -489,6 +489,8 @@ div#sign-up-info {
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
+    border-color: black;
+    border-radius: 10px;
 }
 
 #submit-button:hover {
@@ -515,6 +517,44 @@ div#sign-up-info {
     box-shadow: 0 2px 20px 20px #1c171e;
 }
 
+#cover-text3 {
+    background-color: rgb(89 84 84 / 76%);
+    font-size: 25px;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+    color: #81a3e7;
+    height: 45px;
+    width: 180px;
+    font-family: "Oswald", sans-serif;
+    padding-left: 3px;
+    box-shadow: 2px 2px 14px 4px;
+}
+
+#thankyou {
+    text-align: center;
+    padding: 50px 20px 0px 20px;
+}
+
+#thankyou h2 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #da65e0;
+}
+
+#thankyou p {
+    font-size: 15px;
+    color: #7fcfff;
+}
+
+#p1 {
+    padding-bottom: 20px;
+}
+
+#p2 {
+    font-family: sans-serif;
+}
+
 /* Footer */
 footer {
     background-color: rgb(224 227 227);
@@ -528,6 +568,10 @@ footer {
     font-size: 30px;
     list-style-type: none;
     padding: 10px 20% 10px 20%;
+}
+
+input {
+    border-radius: 5px;
 }
 
 /* Responsive Design for large phones and larger */
@@ -659,213 +703,256 @@ footer {
         font-size: 18px;
     }
 
-    /* Responsive Design for Laptops and larger */
-    @media screen and (min-width: 992px) {
+    /*form feedback main */
 
-        /* Header */
-        header h1 {
-            font-size: 48px;
-            padding-left: 40px;
-        }
-
-        header h2 {
-            font-size: 40px;
-            padding-left: 160px;
-        }
-
-        /* Navbar */
-        #navbar {
-            padding: 105px 40px 5px 0;
-        }
-
-        /* Main */
-        main {
-            /* Push Main content down for increase size in header */
-            margin-top: 156px;
-        }
-
-        #cover-text {
-            font-size: 250%;
-            bottom: 18px;
-            left: 15px;
-            height: 50px;
-            width: 360px;
-            padding-left: 5px;
-            padding-bottom: 55px;
-        }
-
-        #trials-logo {
-            height: 200px;
-        }
-
-        .fa-discord:before {
-            font-size: 70px;
-        }
-
-        .fa-hand-holding-dollar:before,
-        .fa-hand-holding-usd:before {
-            font-size: 22px;
-            color: rgb(26 113 9);
-        }
-
-        .fa-user:before {
-            font-size: 22px;
-            color: rgb(28 112 209);
-        }
-
-        .fa-gift:before {
-            font-size: 22px;
-            color: rgb(159 45 45);
-        }
-
-        #about-us {
-            margin-bottom: 80px;
-            margin-top: 20px;
-        }
-
-        #about-us-info {
-            font-size: 12px;
-        }
-
-        #about-us-info>div {
-            padding: 0 50px;
-        }
-
-        #intro {
-            margin-top: 50px;
-        }
-
-        .fa-hand-holding-dollar:before,
-        .fa-hand-holding-usd:before {
-            font-size: 25px;
-        }
-
-        .fa-user:before {
-            font-size: 25px;
-        }
-
-        .fa-gift:before {
-            font-size: 25px;
-        }
-
-        /* How it works Main */
-        #how-it-works-info {
-            font-size: 12px;
-        }
-
-        #how-it-works-info>div {
-            padding: 0 50px;
-        }
-
-        .fa-solid.fa-desktop {
-            font-size: 25px;
-        }
-
-        .fa-solid.fa-door-open {
-            font-size: 25px;
-        }
-
-        .fa-solid.fa-comments {
-            font-size: 25px;
-        }
-
-        #discord-visuals {
-            margin-top: 60px;
-        }
-
-        .fa-handshake {
-            font-size: 25px;
-        }
-
-        .fa-house-chimney {
-            font-size: 25px;
-        }
-
-        h3 {
-            font-size: 30px;
-            padding-bottom: 80px;
-        }
-
-        iframe {
-            width: 700px;
-            height: 400px;
-        }
-
-        #review-photos {
-            margin-bottom: 180px;
-        }
-
-        /* sign up Main */
-
-        #cover-text2 {
-            font-size: 250%;
-            bottom: 18px;
-            left: 15px;
-            height: 50px;
-            width: 360px;
-            padding-left: 10px;
-            padding-bottom: 65px;
-        }
-
-        #sign-up-info h3 {
-            font-size: 27px;
-            padding-bottom: 60px;
-        }
-
-        #sign-up-info p {
-            font-size: 22px;
-        }
-
-        #sign-up-discord-link p {
-            font-size: 40px;
-        }
-
-        form {
-            font-size: 25px;
-            padding: 30px 50px 50px 50px;
-        }
-
-        input {
-            font-size: 20px;
-        }
-
-        #submit-button {
-            font-size: 30px;
-        }
+    #cover-text3 {
+        font-size: 40px;
+        bottom: 15px;
+        left: 15px;
+        height: 50px;
+        width: 350px;
+        padding-left: 20px;
+        padding-bottom: 60px;
     }
 
-    /* Responsive Design for Large Laptops and larger */
-    @media screen and (min-width: 1200px) {
-        #about-us-info {
-            font-size: 15px;
-        }
+    #thankyou h2 {
+        font-size: 50px;
+    }
 
-        #about-us-info>div {
-            padding: 0 50px;
-        }
+    #thankyou p {
+        font-size: 20px;
+    }
+}
 
-        /* How it works Main */
-        #how-it-works-info {
-            font-size: 15px;
-        }
 
-        #how-it-works-info>div {
-            padding: 0 50px;
-        }
+/* Responsive Design for Laptops and larger */
+@media screen and (min-width: 992px) {
 
-        iframe {
-            width: 900px;
-            height: 600px;
-        }
+    /* Header */
+    header h1 {
+        font-size: 48px;
+        padding-left: 40px;
+    }
 
-        #review-photos {
-            margin-bottom: 200px;
-        }
+    header h2 {
+        font-size: 40px;
+        padding-left: 160px;
+    }
 
-        /* sign up Main */
+    /* Navbar */
+    #navbar {
+        padding: 105px 40px 5px 0;
+    }
 
-        div#sign-up-info {
-            padding: 50px 20%;
-        }
+    /* Main */
+    main {
+        /* Push Main content down for increase size in header */
+        margin-top: 156px;
+    }
+
+    #cover-text {
+        font-size: 250%;
+        bottom: 18px;
+        left: 15px;
+        height: 50px;
+        width: 360px;
+        padding-left: 5px;
+        padding-bottom: 55px;
+    }
+
+    #trials-logo {
+        height: 200px;
+    }
+
+    .fa-discord:before {
+        font-size: 70px;
+    }
+
+    .fa-hand-holding-dollar:before,
+    .fa-hand-holding-usd:before {
+        font-size: 22px;
+        color: rgb(26 113 9);
+    }
+
+    .fa-user:before {
+        font-size: 22px;
+        color: rgb(28 112 209);
+    }
+
+    .fa-gift:before {
+        font-size: 22px;
+        color: rgb(159 45 45);
+    }
+
+    #about-us {
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+
+    #about-us-info {
+        font-size: 12px;
+    }
+
+    #about-us-info>div {
+        padding: 0 50px;
+    }
+
+    #intro {
+        margin-top: 50px;
+    }
+
+    .fa-hand-holding-dollar:before,
+    .fa-hand-holding-usd:before {
+        font-size: 25px;
+    }
+
+    .fa-user:before {
+        font-size: 25px;
+    }
+
+    .fa-gift:before {
+        font-size: 25px;
+    }
+
+    /* How it works Main */
+    #how-it-works-info {
+        font-size: 12px;
+    }
+
+    #how-it-works-info>div {
+        padding: 0 50px;
+    }
+
+    .fa-solid.fa-desktop {
+        font-size: 25px;
+    }
+
+    .fa-solid.fa-door-open {
+        font-size: 25px;
+    }
+
+    .fa-solid.fa-comments {
+        font-size: 25px;
+    }
+
+    #discord-visuals {
+        margin-top: 60px;
+    }
+
+    .fa-handshake {
+        font-size: 25px;
+    }
+
+    .fa-house-chimney {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 30px;
+        padding-bottom: 80px;
+    }
+
+    iframe {
+        width: 700px;
+        height: 400px;
+    }
+
+    #review-photos {
+        margin-bottom: 180px;
+    }
+
+    /* sign up Main */
+
+    #cover-text2 {
+        font-size: 250%;
+        bottom: 18px;
+        left: 15px;
+        height: 50px;
+        width: 360px;
+        padding-left: 10px;
+        padding-bottom: 65px;
+    }
+
+    #sign-up-info h3 {
+        font-size: 27px;
+        padding-bottom: 60px;
+    }
+
+    #sign-up-info p {
+        font-size: 22px;
+    }
+
+    #sign-up-discord-link p {
+        font-size: 40px;
+    }
+
+    form {
+        font-size: 25px;
+        padding: 30px 50px 50px 50px;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    #submit-button {
+        font-size: 30px;
+    }
+
+    /* feedback form Main */
+
+    #cover-text3 {
+        font-size: 58px;
+        bottom: 15px;
+        height: 80px;
+        width: 450px;
+        padding-left: 20px;
+        padding-bottom: 88px;
+    }
+}
+
+/* Responsive Design for Large Laptops and larger */
+@media screen and (min-width: 1200px) {
+    #about-us-info {
+        font-size: 15px;
+    }
+
+    #about-us-info>div {
+        padding: 0 50px;
+    }
+
+    /* How it works Main */
+    #how-it-works-info {
+        font-size: 15px;
+    }
+
+    #how-it-works-info>div {
+        padding: 0 50px;
+    }
+
+    iframe {
+        width: 900px;
+        height: 600px;
+    }
+
+    #review-photos {
+        margin-bottom: 200px;
+    }
+
+    /* sign up Main */
+
+    div#sign-up-info {
+        padding: 50px 20%;
+    }
+
+    /* form feedback main */
+
+    #cover-text3 {
+        font-size: 72px;
+        bottom: 15px;
+        height: 100px;
+        width: 600px;
+        padding-left: 20px;
+        padding-bottom: 104px;
     }
 }
