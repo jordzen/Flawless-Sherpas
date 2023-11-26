@@ -479,6 +479,10 @@ div#sign-up-info {
     text-decoration: none;
 }
 
+#sign-up-discord-link p:hover {
+    color: #28ce5a;
+}
+
 /* Footer */
 footer {
     background-color: rgb(224 227 227);
@@ -778,6 +782,10 @@ footer {
 
         #sign-up-info p {
             font-size: 22px;
+        }
+
+        #sign-up-discord-link p {
+            font-size: 40px;
         }
     }
 
