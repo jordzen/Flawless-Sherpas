@@ -497,6 +497,24 @@ div#sign-up-info {
     text-decoration: underline;
 }
 
+/* form feedback Main */
+
+#hero4 {
+    height: 250px;
+    width: 100%;
+    background: url("../images/hero4.jpg") no-repeat center center/cover;
+    border: solid;
+    border-color: black;
+    position: relative;
+    display: flex;
+    box-shadow: 1px 1px 20px 11px;
+    color: rgb(83 121 165);
+}
+
+#header-form-feedback {
+    box-shadow: 0 2px 20px 20px #1c171e;
+}
+
 /* Footer */
 footer {
     background-color: rgb(224 227 227);
@@ -814,7 +832,6 @@ footer {
         #submit-button {
             font-size: 30px;
         }
-
     }
 
     /* Responsive Design for Large Laptops and larger */
