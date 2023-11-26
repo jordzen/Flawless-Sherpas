@@ -424,7 +424,7 @@ form {
     box-shadow: 0 0 20px 11px #496485;
     border: groove;
     border-color: #5b562f;
-    padding: 25px 25px 35px 25px;
+    padding: 25px 25px 40px 25px;
     text-transform: uppercase;
 }
 
@@ -481,6 +481,20 @@ div#sign-up-info {
 
 #sign-up-discord-link p:hover {
     color: #28ce5a;
+}
+
+#submit-button {
+    background-color: #496485;
+    color: #080708;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#submit-button:hover {
+    background-color: #28ce5a;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* Footer */
@@ -795,6 +809,10 @@ footer {
 
         input {
             font-size: 20px;
+        }
+
+        #submit-button {
+            font-size: 30px;
         }
 
     }
