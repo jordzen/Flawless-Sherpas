@@ -787,6 +787,16 @@ footer {
         #sign-up-discord-link p {
             font-size: 40px;
         }
+
+        form {
+            font-size: 25px;
+            padding: 30px 50px 50px 50px;
+        }
+
+        input {
+            font-size: 20px;
+        }
+
     }
 
     /* Responsive Design for Large Laptops and larger */
