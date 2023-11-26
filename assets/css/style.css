@@ -420,12 +420,32 @@ iframe {
 form {
     display: inline-grid;
     text-align: center;
+    gap: 25px;
+    box-shadow: 0 0 20px 11px #496485;
+    border: groove;
+    border-color: #5b562f;
+    padding: 25px 25px 35px 25px;
+    text-transform: uppercase;
 }
 
 #sign-up-main {
     background-color: rgb(39, 38, 38);
     color: #ffffff;
     flex: 1 0 auto;
+}
+
+#cover-text2 {
+    background-color: rgb(89 84 84 / 76%);
+    font-size: 130%;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+    color: #d877ff;
+    height: 45px;
+    width: 180px;
+    font-family: "Oswald", sans-serif;
+    padding-left: 3px;
+    box-shadow: 2px 2px 14px 4px;
 }
 
 /* Footer */
@@ -695,6 +715,18 @@ footer {
 
         #review-photos {
             margin-bottom: 180px;
+        }
+
+        /* sign up Main */
+
+        #cover-text2 {
+            font-size: 250%;
+            bottom: 18px;
+            left: 15px;
+            height: 50px;
+            width: 360px;
+            padding-left: 10px;
+            padding-bottom: 65px;
         }
     }
 
