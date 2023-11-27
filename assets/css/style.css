@@ -418,7 +418,7 @@ iframe {
     padding-bottom: 100px;
 }
 
-form {
+#sign-up-form form {
     display: inline-grid;
     text-align: center;
     gap: 25px;
@@ -887,7 +887,7 @@ input {
         font-size: 40px;
     }
 
-    form {
+    #sign-up-form form {
         font-size: 25px;
         padding: 30px 50px 50px 50px;
     }
