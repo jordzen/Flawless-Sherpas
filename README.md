@@ -79,11 +79,12 @@ There was also some changes to the final design being -
 - The navigation buttons appear on the header, on all 4 pages, including the form feedback page, making it an easy way to navigate throughout the website and allowing the user to find what they want fast.
 - the nav buttons include the about page, how it works page and the sign up page.
 - the nav buttons are all coloured different, on a grey header, to make them easy to spot.
+- they also have relevent icons for better asthetic design and better UX.
 - the nav buttons have a hover feature, giving the user feedback when they hover over each of the nav buttons showing them they can select the page.
 - the buttons also show the user which page they are on, by an underline of the pages button.
 - The nav bar becomes a drop down menu for mobile users by using a burger bar.
 
-![Nav bar](docs/screenshots/nav-bar.png) ![nav bar for mobile](docs/screenshots/nav-bar-mobile.png)
+![Nav bar](docs/screenshots/nav-bar.png)     ![nav bar for mobile](docs/screenshots/nav-bar-mobile.png)
 
 ***
 
@@ -95,3 +96,15 @@ There was also some changes to the final design being -
 - it has a yellow color box shadow effect, matching the main colour of the game mode, in which the website is about.
 
 ![Header](docs/screenshots/header.png)
+
+## **About Page**
+
+The About page first contains a hero image, being of in game cosmetics of the game mode the site is about. It has brief desciption of what the websites purpose is and what the business if offering, which is also seen by the user imediatly on site open. It is summed up in one line, and made big and is in the centre of the page. It is styled in the yellow colour of the game mode and is next to the game modes logo.
+It also contains,
+
+- 3 bullet pointed lists, all with coloured headers, matching the color order of the navigation bars. The information provided is what is most important to the user and summed up in an easy digested list, getting straight to the point. This being, who we are, what we offer and the price.
+- It also includes a link to the businesses main platform, discord, with an icon of discords logo and text for the user to select to take them to the website, which will open in a new tab. The link has a hover feature, where the color of the links text will change to green, when the user hovers over it, showing them they can click it and green being a positive color.
+
+![About Page 1](docs/screenshots/about-page1.png)
+
+![About Page 2](docs/screenshots/about-page2.png)
