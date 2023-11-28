@@ -32,6 +32,7 @@ Users of the website will be able to find all the information they need, being -
 - provide user with both written explanation and visual explanation of how service works
 - provide a contact point for people without discord to maximise customers for business
 - provide the business more exposure to potential customers
+- Be designed to create a positive user experience on all devices, including mobile and up to desktop.
 
 ### **How Will This Be Achieved**
 
@@ -46,6 +47,8 @@ Users of the website will be able to find all the information they need, being -
   second link to the discord server.
 - The sign up page - which will provide users that do not have discord or have any other questions, a form to fill out, so the business can
   contact them and discuss how to help them. This page will also have a link to the discord server. The form must have feedback to the user that they have submitted their form.
+
+  - The website will be a responsive design for different devices, starting from mobile and up to desktop.
 
 ## _Wireframes_
 
