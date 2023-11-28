@@ -290,6 +290,10 @@ main {
     color: rgb(83 121 165);
 }
 
+#hero2 h2 {
+    display: none;
+}
+
 #trials-logo2 {
     width: 100%;
     background: url("../images/trials-logo-2.png") no-repeat center center;
@@ -450,6 +454,10 @@ iframe {
     padding-bottom: 100px;
 }
 
+#sign-up-form h2 {
+    display: none;
+}
+
 #sign-up-form form {
     display: inline-grid;
     text-align: center;
@@ -544,6 +552,10 @@ div#sign-up-info {
     display: flex;
     box-shadow: 1px 1px 20px 11px;
     color: rgb(83 121 165);
+}
+
+#hero4 h3 {
+    display: none;
 }
 
 #header-form-feedback {
@@ -906,13 +918,16 @@ input {
     /* sign up Main */
 
     #cover-text2 {
-        font-size: 250%;
         bottom: 18px;
         left: 15px;
         height: 50px;
         width: 360px;
         padding-left: 10px;
         padding-bottom: 65px;
+    }
+
+    #cover-text2 h3 {
+        font-size: 40px;
     }
 
     #sign-up-info h3 {
