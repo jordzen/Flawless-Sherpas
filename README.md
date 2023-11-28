@@ -50,4 +50,10 @@ Users of the website will be able to find all the information they need, being -
 ## _Wireframes_
 
 To put ideas into reality and play around with how the website will work and look, i started using wireframes to plan out the website layout and content. This would also help me avoid scope creep.
-Below are the wireframes for the 3 intended pages for mobile and desktop.
+Below are the wireframes for the 3 intended pages for desktop.
+
+![Home page wireframe for desktop](docs/screenshots/home-page-wireframe-desktop.png)
+
+![How it works wireframe for desktop](docs/screenshots/how-it-works-wireframe.png)
+
+![Sign up wireframe for desktop](docs/screenshots/sign-up-wireframe.png)
