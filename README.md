@@ -83,8 +83,15 @@ There was also some changes to the final design being -
 - the buttons also show the user which page they are on, by an underline of the pages button.
 - The nav bar becomes a drop down menu for mobile users by using a burger bar.
 
-![nav bar](docs/screenshots/nav-bar.png)
-
-![nav bar for mobile](docs/screenshots/nav-bar-mobile.png)
+![Nav bar](docs/screenshots/nav-bar.png) ![nav bar for mobile](docs/screenshots/nav-bar-mobile.png)
 
 ***
+
+#### **Header**
+
+- The header sticks to the top of all pages on the website and so as the user scrolls up and down, the header will remain fixed and move with the flow of the page. This creates a good UX as the user can find the navigation bar easy and all times.
+- it includes the title of the page, which also acts as a internal link to the home page - about.
+- it also homes the navigation buttons which are located in the bottom right hand side of the header, and more mobile users, this will turn into a dropdown menu in the form of a burger bar found on the right hand side of the header.
+- it has a yellow color box shadow effect, matching the main colour of the game mode, in which the website is about.
+
+![Header](docs/screenshots/header.png)
