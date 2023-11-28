@@ -353,6 +353,15 @@ main {
     color: rgb(26 113 9);
 }
 
+.fa-solid.fa-house-chimney {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.fa-solid.fa-handshake {
+    padding-bottom: 15px;
+}
+
 #discord-visuals {
     display: inline-block;
     margin-top: 30px;
@@ -362,6 +371,10 @@ main {
 #discord-video {
     color: rgb(28 112 209);
     text-decoration: underline;
+}
+
+#discord-video h3 {
+    padding-bottom: 50px;
 }
 
 #discord-reviews {
@@ -862,12 +875,18 @@ input {
         margin-top: 60px;
     }
 
-    .fa-handshake {
-        font-size: 25px;
+    .fa-solid.fa-handshake {
+        font-size: 30px;
+        padding-bottom: 25px;
     }
 
-    .fa-house-chimney {
-        font-size: 25px;
+    .fa-solid.fa-house-chimney {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    #discord-video h3 {
+        padding-bottom: 90px;
     }
 
     h3 {
