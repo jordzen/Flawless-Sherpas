@@ -48,9 +48,9 @@ Users of the website will be able to find all the information they need, being -
 - The sign up page - which will provide users that do not have discord or have any other questions, a form to fill out, so the business can
   contact them and discuss how to help them. This page will also have a link to the discord server. The form must have feedback to the user that they have submitted their form.
 
-  - The website will be a responsive design for different devices, starting from mobile and up to desktop.
+- The website will be a responsive design for different devices, starting from mobile and up to desktop.
 
-## _Wireframes_
+## **Wireframes**
 
 To put ideas into reality and play around with how the website will work and look, i started using wireframes to plan out the website layout and content. This would also help me avoid scope creep.
 Below are the wireframes for the 3 intended pages for desktop.
@@ -71,3 +71,20 @@ There was also some changes to the final design being -
 - I added cover text to hero images.
 - I added box-shadow effects to the hero images, header and sign up form, to stand out more.
 - I also had to adjust the layout for mobile users, including a burger bar button for a drop down menu of the navbar.
+
+## **Features**
+
+#### **Navigation:**
+
+- The navigation buttons appear on the header, on all 4 pages, including the form feedback page, making it an easy way to navigate throughout the website and allowing the user to find what they want fast.
+- the nav buttons include the about page, how it works page and the sign up page.
+- the nav buttons are all coloured different, on a grey header, to make them easy to spot.
+- the nav buttons have a hover feature, giving the user feedback when they hover over each of the nav buttons showing them they can select the page.
+- the buttons also show the user which page they are on, by an underline of the pages button.
+- The nav bar becomes a drop down menu for mobile users by using a burger bar.
+
+![nav bar](docs/screenshots/nav-bar.png)
+
+![nav bar for mobile](docs/screenshots/nav-bar-mobile.png)
+
+***
