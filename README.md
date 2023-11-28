@@ -65,7 +65,7 @@ I started the wireframe design for desktop in this project and would have starte
 
 There was also some changes to the final design being -
 
-- I did not include an embeded scrollable reviews page, as doing rearch on doing this with discord, i found that i needed to use a bot and python, which was out of my scope at the time.  
+- I did not include an embeded scrollable reviews page, as doing rearch on doing this with discord, i found that i needed to use a bot and python, which was out of my scope at the time. Instead i added 3 screenshots of reviews and will replace this will a scrollable page in the future.  
 - I added text to the sign up form, of why it is there and for who, for clarity.
 - I changed 2 of the hero images to be more relevent to the content.
 - I added cover text to hero images.
