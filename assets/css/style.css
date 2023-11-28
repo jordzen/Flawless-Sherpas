@@ -265,13 +265,13 @@ main {
     padding-bottom: 30px;
 }
 
-#about-us-discord-link p {
+#about-us-discord-link h3 {
     font-weight: 900;
     color: #8a88f9;
     text-decoration: underline;
 }
 
-#about-us-discord-link p:hover {
+#about-us-discord-link h3:hover {
     color: #38cc1a;
 }
 
