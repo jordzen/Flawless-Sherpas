@@ -60,3 +60,12 @@ Below are the wireframes for the 3 intended pages for desktop.
 ![How it works wireframe for desktop](docs/screenshots/how-it-works-wireframe.png)
 
 ![Sign up wireframe for desktop](docs/screenshots/sign-up-wireframe.png)
+
+I started the wireframe design for desktop in this project and would have started for mobile and then done desktop if i was to do it again, as i coded for mobile design first and then added the response design after.  
+
+There was also some changes to the final design being -
+
+- I did not include an embeded scrollable reviews page, as doing rearch on doing this with discord, i found that i needed to use a bot and python, which was out of my scope at the time.  
+- I added text to the sign up form, of why it is there and for who, for clarity.
+- I changed 2 of the hero images to be more relevent to the content.
+- I also had to adjust the layout for mobile users, including a burger bar button for a drop down menu of the navbar.
