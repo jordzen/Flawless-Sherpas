@@ -108,3 +108,33 @@ It also contains,
 ![About Page 1](docs/screenshots/about-page1.png)
 
 ![About Page 2](docs/screenshots/about-page2.png)
+
+## **How It Works Page**
+
+The How It Works page contains an explanation of how the service works and steps to take to navigate the businesses operating platfrom - discord, summarised in short bullet pointed lists. Following the same consistant style of 3 lists, with the same colour headers as the previous page and nav buttons, each with a relevent icon.
+It also contains,
+
+- an embeded youtube video, explaining how the service works, that can be played by selecting the play button and can be full screened for a better viewing experience. This adds an extra way for users to recieve the information, that some people may find easier to digest.
+- 3 screenshots of reviews from the businesses discord server, showing that the service holds value and is worth doing. This was orginally meant to be a scrollable page of entire review section of discord, but ended up being out of my scope at the time and will be updated in the future.
+- It has another hero image of game mode the website is about.
+- It also contains a second link to the discord server.
+
+![How it works page 1](docs/screenshots/how-it-works-page1.png)
+![How it works page 2](docs/screenshots/how-it-works-page2.png)
+![how it works page 3](docs/screenshots/how-it-works-page3.png)
+
+## **Sign Up Page**
+
+The Sign up page has a form to collect details from users that want to use the service that dont have discord or have any other questions.
+It also has,
+
+- A submit button for the form, which has a hover feature that turns the button green when the mouse hovers over it. Green being a positive color.
+- A link to the discord server
+- an explantion that you can still use the service without discord, by filling out the form.
+- a form feedback page, that you are taken to on completion and submition of the form. This is a placeholder and will be updated in the future.It gives confirmation to the user that they have completed the form correctly and are told that they will be contacted soon.
+- a color scheme that matches the hero image creating a astheticly pleasing page.
+- The form has a box shadow effect that makes it stand out.
+
+![sign up page 1](docs/screenshots/sign-up-page1.png)
+![sign up page 2](docs/screenshots/sign-up-page2.png)
+![sign up page 2](docs/screenshots/sign-up-page3.png)
