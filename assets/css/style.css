@@ -106,7 +106,7 @@ nav li {
 }
 
 #how-it-works {
-    background-color: rgb(159 45 45);
+    background-color: rgb(167 145 8);
     color: #ffffff;
     padding: 6px 8px 6px 10px;
     box-shadow: 2px 2px 2px #3a3a3a;
@@ -189,17 +189,16 @@ main {
     text-align: center;
     font-size: 11.5px;
     margin-bottom: 40px;
-    color: #f3f127d1;
+    color: #b7bb0ed1;
 }
 
 #about-us-info {
     margin-bottom: 100px;
-    font-size: 10px;
+    font-size: 12px;
     justify-content: space-evenly;
     text-align: center;
     gap: 7%;
     list-style-type: circle;
-    list-style-position: inside;
     display: inline-grid;
     margin-top: 20px;
 }
@@ -212,21 +211,21 @@ main {
 }
 
 #who-we-are {
-    color: rgb(28 112 209);
+    color: rgb(94 162 239);
     text-decoration: underline;
     padding-bottom: 42px;
     padding-top: 15px;
 }
 
 #what-we-offer {
-    color: rgb(159 45 45);
+    color: #c9c707;
     text-decoration: underline;
     padding-bottom: 42px;
     padding-top: 15px;
 }
 
 #prices {
-    color: rgb(26 113 9);
+    color: rgb(49 165 26);
     text-decoration: underline;
     padding-bottom: 42px;
     padding-top: 15px;
@@ -237,17 +236,17 @@ main {
 .fa-hand-holding-dollar:before,
 .fa-hand-holding-usd:before {
     font-size: 17px;
-    color: rgb(26 113 9);
+    color: rgb(49 165 26);
 }
 
 .fa-user:before {
     font-size: 17px;
-    color: rgb(28 112 209);
+    color: rgb(94 162 239);
 }
 
 .fa-gift:before {
     font-size: 17px;
-    color: rgb(159 45 45);
+    color: #c9c707;
 }
 
 /* about page discord link */
@@ -261,14 +260,15 @@ main {
 
 .fa-brands.fa-discord {
     font-size: 50px;
-    color: rgb(92 81 245);
+    color: rgb(82 93 255);
     padding-bottom: 30px;
 }
 
 #about-us-discord-link h3 {
     font-weight: 900;
-    color: #8a88f9;
+    color: #34a1f1;
     text-decoration: underline;
+    padding-top: 10px;
 }
 
 #about-us-discord-link h3:hover {
@@ -304,13 +304,13 @@ main {
 
 #how-it-works-info {
     margin-bottom: 100px;
-    font-size: 10px;
+    font-size: 12px;
     justify-content: space-evenly;
     text-align: center;
     gap: 10%;
     list-style-type: circle;
-    list-style-position: inside;
     display: inline-grid;
+    padding-top: 70px;
 }
 
 #how-it-works-info ul {
@@ -321,21 +321,21 @@ main {
 }
 
 #join-our-discord {
-    color: rgb(28 112 209);
+    color: rgb(94 162 239);
     text-decoration: underline;
     padding-bottom: 40px;
     padding-top: 15px;
 }
 
 #talk-to-sherpa {
-    color: rgb(159 45 45);
+    color: #c9c707;
     text-decoration: underline;
     padding-bottom: 40px;
     padding-top: 15px;
 }
 
 #join-up {
-    color: rgb(26 113 9);
+    color: rgb(49 165 26);
     text-decoration: underline;
     padding-bottom: 40px;
     padding-top: 15px;
@@ -343,27 +343,27 @@ main {
 
 .fa-solid.fa-door-open {
     font-size: 15px;
-    color: rgb(28 112 209);
+    color: rgb(94 162 239);
 }
 
 .fa-solid.fa-comments {
     font-size: 15px;
-    color: rgb(159 45 45);
+    color: #c9c707;
 }
 
 .fa-solid.fa-desktop {
     font-size: 15px;
-    color: rgb(26 113 9);
+    color: rgb(49 165 26);
 }
 
 .fa-solid.fa-house-chimney {
-    color: rgb(28 112 209);
+    color: rgb(94 162 239);
     padding-top: 20px;
     padding-bottom: 15px;
 }
 
 .fa-solid.fa-handshake {
-    color: rgb(26 113 9);
+    color: rgb(49 165 26);
     padding-bottom: 15px;
 }
 
@@ -374,7 +374,7 @@ main {
 }
 
 #discord-video {
-    color: rgb(28 112 209);
+    color: rgb(94 162 239);
     text-decoration: underline;
 }
 
@@ -389,7 +389,7 @@ main {
 }
 
 #reviews-title {
-    color: rgb(26 113 9);
+    color: rgb(49 165 26);
     text-decoration: underline;
     text-align: center;
     margin-bottom: 60px;
@@ -630,7 +630,7 @@ footer {
 }
 
 .fa-brands.fa-facebook {
-    color: #1b5f49;
+    color: #1754e1;
 }
 
 /* Responsive Design for large phones and larger */
@@ -698,7 +698,7 @@ footer {
     }
 
     #about-us-info {
-        font-size: 10px;
+        font-size: 12px;
         justify-content: center;
         display: flex;
         gap: 0;
@@ -712,14 +712,10 @@ footer {
         padding-left: 35px;
     }
 
-    #about-us-discord-link {
-        padding-left: 35px;
-    }
-
     /* How it works Main */
 
     #how-it-works-info {
-        font-size: 10px;
+        font-size: 12px;
         justify-content: center;
         display: flex;
         gap: 0;
@@ -829,17 +825,14 @@ footer {
     .fa-hand-holding-dollar:before,
     .fa-hand-holding-usd:before {
         font-size: 22px;
-        color: rgb(26 113 9);
     }
 
     .fa-user:before {
         font-size: 22px;
-        color: rgb(28 112 209);
     }
 
     .fa-gift:before {
         font-size: 22px;
-        color: rgb(159 45 45);
     }
 
     #about-us {
@@ -848,7 +841,7 @@ footer {
     }
 
     #about-us-info {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #about-us-info>div {
@@ -878,7 +871,7 @@ footer {
 
     /* How it works Main */
     #how-it-works-info {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #how-it-works-info>div {
@@ -985,7 +978,7 @@ footer {
 /* Responsive Design for Large Laptops and larger */
 @media screen and (min-width: 1200px) {
     #about-us-info {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     #about-us-info>div {
@@ -994,7 +987,7 @@ footer {
 
     /* How it works Main */
     #how-it-works-info {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     #how-it-works-info>div {
