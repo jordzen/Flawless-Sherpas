@@ -33,7 +33,7 @@ header {
     height: fit-content;
     border: 2px solid;
     border-radius: 5px;
-    box-shadow: 0 2px 20px 17px #92957b;
+    box-shadow: 0 2px 13px 8px #92957b;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -145,17 +145,13 @@ button:hover {
     text-decoration-color: rgb(243, 240, 240);
 }
 
-/* Main Content */
-
+/* Index Page Main Content */
 main {
     background-color: rgb(39, 38, 38);
     color: #ffffff;
-
     /* make main element take up any surplus space to push footer down*/
-
     flex: 1 0 auto;
     /* Push Main content down in line with headers bottom margin */
-
     margin-top: 68px;
     display: flex;
     flex-direction: column;
@@ -169,8 +165,8 @@ main {
     border-color: black;
     position: relative;
     display: flex;
-    box-shadow: 1px 1px 20px 11px;
-    color: rgb(83 121 165);
+    box-shadow: 1px 1px 15px 7px;
+    color: rgb(179 165 91);
 }
 
 #cover-text {
@@ -241,7 +237,6 @@ main {
 }
 
 /* about us info icons*/
-
 .fa-hand-holding-dollar:before,
 .fa-hand-holding-usd:before {
     font-size: 17px;
@@ -284,8 +279,12 @@ main {
     color: #38cc1a;
 }
 
-/* How It Works Main */
+/* How It Works Header */
+#how-it-works-header {
+    box-shadow: 0 2px 18px 6px #6ca6ff;
+}
 
+/* How It Works Main */
 #hero2 {
     height: 350px;
     width: 100%;
@@ -431,8 +430,12 @@ iframe {
     height: 200px;
 }
 
-/* Sign up Main */
+/* Sign Up Header */
+#sign-up-header {
+    box-shadow: 0 2px 20px 20px #0c0c0cad;
+}
 
+/* Sign up Main */
 #trials-logo3 {
     width: 100%;
     background: url("../images/trials-logo-2.png") no-repeat center center;
@@ -450,12 +453,8 @@ iframe {
     position: relative;
     display: flex;
     margin-bottom: 180px;
-    box-shadow: 1px 1px 20px 11px;
-    color: rgb(83 121 165);
-}
-
-#sign-up-header {
-    box-shadow: 0 2px 20px 20px #0c0c0cad;
+    box-shadow: 1px 1px 13px 4px;
+    color: rgb(97 93 42);
 }
 
 #sign-up-form {
@@ -531,7 +530,7 @@ div#sign-up-info {
 }
 
 #sign-up-discord-link p:hover {
-    color: #28ce5a;
+    color: #01b151;
 }
 
 #submit-button {
@@ -555,7 +554,6 @@ input {
 }
 
 /* form feedback Main */
-
 #hero4 {
     height: 250px;
     width: 100%;
@@ -615,7 +613,6 @@ input {
 }
 
 /* Footer */
-
 footer {
     background-color: rgb(224 227 227);
     color: black;
@@ -696,7 +693,7 @@ footer {
         margin-left: 10px;
     }
 
-    /* Main */
+    /* Index Page Main */
     main {
         /* Push Main content down for increase size in header */
         margin-top: 100px;
@@ -722,7 +719,6 @@ footer {
     }
 
     /* How it works Main */
-
     #how-it-works-info {
         font-size: 12px;
         justify-content: center;
@@ -757,7 +753,6 @@ footer {
     }
 
     /* sign up Main */
-
     #sign-up-info h3 {
         font-size: 22px;
         padding-bottom: 50px;
@@ -768,7 +763,6 @@ footer {
     }
 
     /*form feedback main */
-
     #cover-text3 {
         font-size: 40px;
         bottom: 15px;
@@ -807,7 +801,7 @@ footer {
         padding: 105px 40px 5px 0;
     }
 
-    /* Main */
+    /* Index page Main */
     main {
         /* Push Main content down for increase size in header */
         margin-top: 156px;
