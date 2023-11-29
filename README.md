@@ -139,3 +139,12 @@ It also has,
 ![sign up page 1](docs/screenshots/sign-up-page1.png)
 ![sign up page 2](docs/screenshots/sign-up-page2.png)
 ![sign up page 2](docs/screenshots/sign-up-page3.png)
+
+## **Footer**
+
+The footer contains 3 links that open in a different browser, these being, the buisnesses twitter page, youtube page and facebook page.
+They are evenly spaced along the header using a spacing on 20% each. The footer apears on all pages and allows the user to do more research and contact the business.
+
+![Footer](docs/screenshots/footer.png)
+
+## **Testing**
