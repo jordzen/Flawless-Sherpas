@@ -99,29 +99,38 @@ nav li {
     background-color: rgb(28 112 209);
     color: #ffffff;
     padding: 6px 35px 6px 30px;
-    box-shadow: 2px 2px 2px #3a3a3a;
+    box-shadow: 2px 2px 2px 1px #3a3a3a;
     margin-top: 20px;
     margin-left: 36px;
     border-radius: 5px;
+    border: solid;
+    border-color: #62bbff;
+    border-style: groove;
 }
 
 #how-it-works {
-    background-color: rgb(167 145 8);
+    background-color: rgb(201 173 4);
     color: #ffffff;
     padding: 6px 8px 6px 10px;
-    box-shadow: 2px 2px 2px #3a3a3a;
+    box-shadow: 2px 2px 2px 1px #3a3a3a;
     margin-left: 36px;
     border-radius: 5px;
+    border: solid;
+    border-color: #fff560;
+    border-style: groove;
 }
 
 #sign-up {
     background-color: rgb(26 113 9);
     color: #ffffff;
     padding: 6px 26px 6px 27px;
-    box-shadow: 2px 2px 2px #3a3a3a;
+    box-shadow: 2px 2px 2px 1px #3a3a3a;
     margin-left: 36px;
     border-radius: 5px;
     margin-bottom: 10px;
+    border: solid;
+    border-color: #72af4f;
+    border-style: groove;
 }
 
 .active {
@@ -225,7 +234,7 @@ main {
 }
 
 #prices {
-    color: rgb(49 165 26);
+    color: rgb(55 187 29);
     text-decoration: underline;
     padding-bottom: 42px;
     padding-top: 15px;
@@ -236,7 +245,7 @@ main {
 .fa-hand-holding-dollar:before,
 .fa-hand-holding-usd:before {
     font-size: 17px;
-    color: rgb(49 165 26);
+    color: rgb(55 187 29);
 }
 
 .fa-user:before {
@@ -335,7 +344,7 @@ main {
 }
 
 #join-up {
-    color: rgb(49 165 26);
+    color: rgb(55 187 29);
     text-decoration: underline;
     padding-bottom: 40px;
     padding-top: 15px;
@@ -353,7 +362,7 @@ main {
 
 .fa-solid.fa-desktop {
     font-size: 15px;
-    color: rgb(49 165 26);
+    color: rgb(55 187 29);
 }
 
 .fa-solid.fa-house-chimney {
@@ -363,7 +372,7 @@ main {
 }
 
 .fa-solid.fa-handshake {
-    color: rgb(49 165 26);
+    color: rgb(55 187 29);
     padding-bottom: 15px;
 }
 
@@ -389,7 +398,7 @@ main {
 }
 
 #reviews-title {
-    color: rgb(49 165 26);
+    color: rgb(55 187 29);
     text-decoration: underline;
     text-align: center;
     margin-bottom: 60px;
@@ -977,6 +986,26 @@ footer {
 
 /* Responsive Design for Large Laptops and larger */
 @media screen and (min-width: 1200px) {
+
+    /*Nav Buttons*/
+    #sign-up {
+        padding: 10px 30px 6px 33px;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    #how-it-works {
+        padding: 8px 10px 6px 10px;
+        margin-left: 20px;
+        font-size: 17px;
+    }
+
+    #about {
+        padding: 8px 42px 6px 37px;
+        font-size: 17px;
+    }
+
+    /* Index Main */
     #about-us-info {
         font-size: 17px;
     }
