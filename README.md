@@ -129,6 +129,7 @@ The Sign up page has a form to collect details from users that want to use the s
 It also has,
 
 - A submit button for the form, which has a hover feature that turns the button green when the mouse hovers over it. Green being a positive color.
+- The form cannot be submitted until the required information is put in the input boxes, being text and email.
 - A link to the discord server
 - an explantion that you can still use the service without discord, by filling out the form.
 - a form feedback page, that you are taken to on completion and submition of the form. This is a placeholder and will be updated in the future.It gives confirmation to the user that they have completed the form correctly and are told that they will be contacted soon.
