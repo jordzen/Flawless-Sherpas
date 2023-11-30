@@ -293,21 +293,13 @@ main {
     border-color: black;
     position: relative;
     display: flex;
-    margin-bottom: 180px;
+    margin-bottom: 10px;
     box-shadow: 1px 1px 20px 11px;
     color: rgb(83 121 165);
 }
 
 #hero2 h2 {
     display: none;
-}
-
-#trials-logo2 {
-    width: 100%;
-    background: url("../images/trials-logo-2.png") no-repeat center center;
-    background-size: contain;
-    height: 150px;
-    margin-top: 350px;
 }
 
 #how-it-works-info {
@@ -318,7 +310,7 @@ main {
     gap: 10%;
     list-style-type: circle;
     display: inline-grid;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 #how-it-works-info ul {
@@ -436,13 +428,6 @@ iframe {
 }
 
 /* Sign up Main */
-#trials-logo3 {
-    width: 100%;
-    background: url("../images/trials-logo-2.png") no-repeat center center;
-    background-size: contain;
-    height: 150px;
-    margin-top: 400px;
-}
 
 #hero3 {
     height: 350px;
@@ -451,7 +436,7 @@ iframe {
     border: solid;
     position: relative;
     display: flex;
-    margin-bottom: 180px;
+    margin-bottom: 100px;
     box-shadow: 1px 1px 20px 0px;
     color: rgb(188 90 199);
 }
