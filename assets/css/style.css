@@ -109,14 +109,14 @@ nav li {
 }
 
 #how-it-works {
-    background-color: rgb(201 173 4);
+    background-color: rgb(127 118 26);
     color: #ffffff;
     padding: 6px 8px 6px 10px;
     box-shadow: 2px 2px 2px 1px #3a3a3a;
     margin-left: 36px;
     border-radius: 5px;
     border: solid;
-    border-color: #fff560;
+    border-color: #afaf14;
     border-style: groove;
 }
 
