@@ -153,3 +153,18 @@ They are evenly spaced along the header using a spacing on 20% each. The footer 
 ![Footer](docs/screenshots/footer.png)
 
 ## **Testing**
+
+## **During Devlopment Testing**
+
+- During the devlopment stages, i would regularly test each element for appearance and responsiveness via a simulated live server using an extension in codeanywhere.
+- I published the page to GITHUB pages and let people in the businesses discord, review and test the site, using different devices and browsers. All feedback was positive.
+- I tested the site myself, using different browsers: google chrome, firefox and edge, to ensure the site works well on different browsers.
+- To test the responsiveness of the site, i used devtools to simulate different screen sizes, to make sure the sites design is fit for all devices. I then would add media queries in the style.css file to improve the responsive design.
+- I have made sure all links on the site will open in a new browser.
+- I have confirmed that on completion of the form and submition, that the form feedback page will then appear.
+- I have tested and made sure that the form cannot be submited unless all relevent, required data is put in the correct boxes - text for names and email for email address.
+- I have tested that all hover features for links work.
+- I have made sure the embeded video works and also doesnt play automatically when the page loads. It requires the user to select play first.
+
+## **Bugs**
+
