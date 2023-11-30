@@ -141,7 +141,7 @@ It also has,
 ![sign up page 1](docs/screenshots/sign-up-page1.png)
 ![sign up page 2](docs/screenshots/sign-up-page2.png)
 
-#### **Form Feedback Page**
+### **Form Feedback Page**
 
 ![Form feedback page](docs/screenshots/form-feedback.png)
 
