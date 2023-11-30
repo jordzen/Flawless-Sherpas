@@ -67,10 +67,11 @@ There was also some changes to the final design being -
 
 - I did not include an embeded scrollable reviews page, as doing rearch on doing this with discord, i found that i needed to use a bot and python, which was out of my scope at the time. Instead i added 3 screenshots of reviews and will replace this will a scrollable page in the future.  
 - I added text to the sign up form, of why it is there and for who, for clarity.
-- I changed 2 of the hero images to be more relevent to the content.
-- I added cover text to hero images.
+- I changed the hero images to be more relevent to the content and look better when on wider screens.
+- I added cover text to hero images, for more effect and positive emotional response from user.
 - I added box-shadow effects to the hero images, header and sign up form, to stand out more.
 - I also had to adjust the layout for mobile users, including a burger bar button for a drop down menu of the navbar.
+- i changed the color of the how it works button and red list headers, for accessability reasons.
 
 ## **Features**
 
@@ -84,7 +85,7 @@ There was also some changes to the final design being -
 - the buttons also show the user which page they are on, by an underline of the pages button.
 - The nav bar becomes a drop down menu for mobile users by using a burger bar.
 
-![Nav bar](docs/screenshots/nav-bar.png)     ![nav bar for mobile](docs/screenshots/nav-bar-mobile.png)
+![Nav bar](docs/screenshots/nav-bar.png)
 
 ***
 
@@ -93,9 +94,9 @@ There was also some changes to the final design being -
 - The header sticks to the top of all pages on the website and so as the user scrolls up and down, the header will remain fixed and move with the flow of the page. This creates a good UX as the user can find the navigation bar easy and all times.
 - it includes the title of the page, which also acts as a internal link to the home page - about.
 - it also homes the navigation buttons which are located in the bottom right hand side of the header, and more mobile users, this will turn into a dropdown menu in the form of a burger bar found on the right hand side of the header.
-- it has a yellow color box shadow effect, matching the main colour of the game mode, in which the website is about.
+- It has a black solid border with box shadow effect to stand out.
 
-![Header](docs/screenshots/header.png)
+![Header](docs/screenshots/header.png)   ![mobile header](docs/screenshots/mobile-header.png)
 
 ## **About Page**
 
@@ -121,7 +122,8 @@ It also contains,
 
 ![How it works page 1](docs/screenshots/how-it-works-page1.png)
 ![How it works page 2](docs/screenshots/how-it-works-page2.png)
-![how it works page 3](docs/screenshots/how-it-works-page3.png)
+![How it works page 3](docs/screenshots/how-it-works-page3.png)
+![How it works page 4](docs/screenshots/how-it-works-page4.png)
 
 ## **Sign Up Page**
 
@@ -138,7 +140,10 @@ It also has,
 
 ![sign up page 1](docs/screenshots/sign-up-page1.png)
 ![sign up page 2](docs/screenshots/sign-up-page2.png)
-![sign up page 2](docs/screenshots/sign-up-page3.png)
+
+#### **Form Feedback Page**
+
+![Form feedback page](docs/screenshots/form-feedback.png)
 
 ## **Footer**
 
