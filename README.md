@@ -166,5 +166,91 @@ They are evenly spaced along the header using a spacing on 20% each. The footer 
 - I have tested that all hover features for links work.
 - I have made sure the embeded video works and also doesnt play automatically when the page loads. It requires the user to select play first.
 
-## **Bugs**
+## **Bugs, Issues And Fixes**
+
+To see how the site worked and if any bugs or issues were present, i deployed it in the early stage of development through github pages, as it can respond different to codeanywheres live server.
+
+The issues i found during development include -
+
+- burger bar location.
+- ***issue***
+- the drop down menu burger bar, for the navigation bar, would not move to the right hand side of the header, no matter what i did. I wanted the two headers in rows and the nav bar on the right.
+- ***solution***
+- I had to set header display to flex and justify content as space between. I had the headers wrapped in an anchor element and the nav bar in a nav element. From there i used padding to move the burger bar and title to where i wanted.
+
+- Youtube video.
+- ***issue***
+- The youtube video i put in the How It Works page was not working, with the url i copied from the browser.
+- ***solution***
+- I googled the issue and found i had the use the unique link on the videos page to embed the video into the site.
+
+- Scrollable reviews page.
+- ***issue***
+- When trying to embed a scrollable reviews page from the businesses discord, every time i tried to do this i found that the website would load up a scrollable page of the discords join page, not the reviews page.
+- ***solution***
+- I researched a way round this and found that the only way to display the page that i want is to use a bot and python language. As this was out of my scope at the time, i decided to use screenshots of the reviews page and will update it to the scrollable page in the future.
+
+- List structure readability.
+- ***issue***
+- I originally had the 3 lists on the first two pages in collumn form for all screen sizes. However, i found that when on mobile, the lists would appear squashed and difficult to read. This creates a bad user experience.
+- ***solution***
+- I changed the lists layout to appear in rows on smaller screens and then change to collumn on larger screens using media queries. This made the content easier to read as it allowed me to increase font size.
+
+- Hero image.
+- ***issue***
+- the first hero image i added would load multiple copies of itself to fill the space of the screen. This didnt look good and i wanted just one large image across the full width.
+- ***solution***
+- I set the images width to 100% and added no-repeat to the images style rule. This resulted in one wide picture of the hero image.
+
+- Footer Icons
+- ***issue***
+- I spent some time trying to space the icons in the footer evenly with padding for different screen sizes and wasted alot of time.
+- ***solution**
+- By setting the footers display to flex and justify content space between, this made sure the icons would appear evenly seperated on every screen size. I played arround with the padding with pixles but then found if i used percentage, it would result in consistant spacing across all screen sizes, saving time working out padding for each screen size using pixles.
+
+- Link to other sites.
+- ***issue***
+- When i first embeded a link to discord, it would open in the same browser, taking me out of the website. This resulting in poor user experience.
+- ***solution***
+- I added the rule in the anchor element, target=_blank. This resulted in the link opening up in a different browser when clicked.
+
+-***Git commits issue***
+Another issue i found was that during the early stages of development, i would forget, or not be as consistant with my git commits. This resulted in my commits containing too much various changes and so difficult to sum up in a message. As the development went on i improved on this, making it easier to understand what had changed, if i had to go back and do bug finding or fixes. I also adjusted my commit messages from past tense to present.
+
+## **Post Development Testing**
+
+### **Validators**
+
+#### ***Html -*** <https://validator.w3.org/nu/>
+
+- ***Issue***
+- The navigation buttons i used were originally inside of an anchor element, which the validator displayed as a problem.
+- ***solution***
+- I wrapped the buttons in seperate form elements, which fixed the issue.
+
+- ***issue***
+- I used a less than sign in the HTML code for a text paragraph, which caused a number of errors.
+- ***solution***
+- I changed the sign in the HTML to text code, which i found on google, which displays the sign on the deployed site.
+
+- ***issue***
+- I used line brakes in the HTML code, to add space between the list bullet points. This created errors in the code validator.
+- ***solution***
+- I removed the line brakes in the HTML and added padding to the lists in the style sheet.
+
+- ***issue***
+- Not enough header elements on the page.
+- ***solution***
+- Added extra header elements to sections that were missing them, and where i didnt want them to show on the site, i set there display to none.
+
+#### ***CSS -*** https://jigsaw.w3.org/css-validator/
+
+- All pages pased the css code validator with no errors or issues found.
+
+## ***Lighthouse***
+
+The two areas i had to work on to recieve these scores were,
+
+- color contrast - to improve the accessability, i adjusted the color brightness of the blue and green headers on the pages and changed the color of the red headers to yellow.
+- Image file size - The load times for the page were slower than could have been initially, and so to improve the performance of the site, i used a third party website to optimise the imgages as much as i could. I was able to reduce the image file sizes an average of around 75% which bumped up the sites performance score.
 

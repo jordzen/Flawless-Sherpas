@@ -36,8 +36,6 @@ header {
     box-shadow: 0 2px 12px 4px #262724;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
 }
 
 header h1 {
