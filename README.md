@@ -247,10 +247,14 @@ Another issue i found was that during the early stages of development, i would f
 
 - All pages pased the css code validator with no errors or issues found.
 
-## ***Lighthouse***
+## ***Lighthouse scores***
 
 The two areas i had to work on to recieve these scores were,
 
 - color contrast - to improve the accessability, i adjusted the color brightness of the blue and green headers on the pages and changed the color of the red headers to yellow.
 - Image file size - The load times for the page were slower than could have been initially, and so to improve the performance of the site, i used a third party website to optimise the imgages as much as i could. I was able to reduce the image file sizes an average of around 75% which bumped up the sites performance score.
 
+![lighthouse about page mobile](docs/screenshots/lh-mobile-about.png) ![lighthouse about page desktop](docs/screenshots/lh-desktop-about.png)
+![lighthouse how it works mobile](docs/screenshots/lh-howitworks-mobile.png) ![lighthouse how it works desktop](docs/screenshots/lh-howitworks-desktop.png)
+![lighthouse sign up mobile](docs/screenshots/lh-signup-mobile.png) ![lighthouse sign up desktop](docs/screenshots/lh-signup-desktop.png)
+![lighthouse form feedback mobile](docs/screenshots/lh-formfeedback-mobile.png) ![lighthouse form feedback desktop](docs/screenshots/lh-formfeedback-desktop.png)
