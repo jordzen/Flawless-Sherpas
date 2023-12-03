@@ -252,7 +252,7 @@ Another issue i found was that during the early stages of development, i would f
 - ***Solution***
   - Added extra header elements to sections that were missing them, and where i didnt want them to show on the site, i set there display to none.
 
-#### ***CSS -*** https://jigsaw.w3.org/css-validator/
+#### ***CSS -*** <https://jigsaw.w3.org/css-validator/>
 
 - All pages pased the css code validator with no errors or issues found.
 
@@ -277,7 +277,7 @@ I deployed the site on GitHub pages, following these steps -
 - Under the Source section, select the Main branch from the drop-down menu and click Save.
 - From this, the page will provide a link to the live website.
 
-This being - https://jordzen.github.io/Flawless-Sherpas/ 
+This being - <https://jordzen.github.io/Flawless-Sherpas/>
 
 ## ***Credits***
 
