@@ -504,9 +504,9 @@ div#sign-up-info {
     padding-bottom: 40px;
 }
 
-#sign-up-discord-link p {
+#sign-up-discord-link h3 {
     padding-bottom: 50px;
-    color: #bfa543;
+    color: #6996ff;
     text-transform: uppercase;
     font-size: 25px;
     text-decoration: underline;
@@ -516,7 +516,7 @@ div#sign-up-info {
     text-decoration: none;
 }
 
-#sign-up-discord-link p:hover {
+#sign-up-discord-link h3:hover {
     color: #01b151;
 }
 

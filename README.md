@@ -267,3 +267,22 @@ The two areas i had to work on to recieve these scores were,
 ![lighthouse how it works mobile](docs/screenshots/lh-howitworks-mobile.png) ![lighthouse how it works desktop](docs/screenshots/lh-howitworks-desktop.png)
 ![lighthouse sign up mobile](docs/screenshots/lh-signup-mobile.png) ![lighthouse sign up desktop](docs/screenshots/lh-signup-desktop.png)
 ![lighthouse form feedback mobile](docs/screenshots/lh-formfeedback-mobile.png) ![lighthouse form feedback desktop](docs/screenshots/lh-formfeedback-desktop.png)
+
+## ***Deployment***
+
+I deployed the site on GitHub pages, following these steps -
+
+- In the project's repository in Github, go to the Settings tab.
+- Select the Pages tab, from the left hand side.
+- Under the Source section, select the Main branch from the drop-down menu and click Save.
+- From this, the page will provide a link to the live website.
+
+This being - https://jordzen.github.io/Flawless-Sherpas/ 
+
+## ***Credits***
+
+#### ***Content:***
+
+- The code used to create the navigation drop down menu was used from code institutes project LOVE RUNNING.
+- All fonts were imported using Google Fonts.
+- All icons were imported using Font Awesome.
