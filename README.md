@@ -172,49 +172,57 @@ To see how the site worked and if any bugs or issues were present, i deployed it
 
 The issues i found during development include -
 
-- burger bar location.
-- ***issue***
-- the drop down menu burger bar, for the navigation bar, would not move to the right hand side of the header, no matter what i did. I wanted the two headers in rows and the nav bar on the right.
-- ***solution***
-- I had to set header display to flex and justify content as space between. I had the headers wrapped in an anchor element and the nav bar in a nav element. From there i used padding to move the burger bar and title to where i wanted.
+ 1. **Burger bar location.**
 
-- Youtube video.
-- ***issue***
-- The youtube video i put in the How It Works page was not working, with the url i copied from the browser.
-- ***solution***
-- I googled the issue and found i had the use the unique link on the videos page to embed the video into the site.
+- ***Issue***
+  - the drop down menu burger bar, for the navigation bar, would not move to the right hand side of the header, no matter what i did. I wanted the two headers in rows and the nav bar on the right.
 
-- Scrollable reviews page.
-- ***issue***
-- When trying to embed a scrollable reviews page from the businesses discord, every time i tried to do this i found that the website would load up a scrollable page of the discords join page, not the reviews page.
-- ***solution***
-- I researched a way round this and found that the only way to display the page that i want is to use a bot and python language. As this was out of my scope at the time, i decided to use screenshots of the reviews page and will update it to the scrollable page in the future.
+- ***Solution***
+  - I had to set header display to flex and justify content as space between. I had the headers wrapped in an anchor element and the nav bar in a nav element. From there i used padding to move the burger bar and title to where i wanted.
+
+1. Youtube video.
+
+- ***Issue***
+  - The youtube video i put in the How It Works page was not working, with the url i copied from the browser.
+- ***Solution***
+  - I googled the issue and found i had the use the unique link on the videos page to embed the video into the site.
+
+1. Scrollable reviews page.
+
+- ***Issue***
+  - When trying to embed a scrollable reviews page from the businesses discord, every time i tried to do this i found that the website would load up a scrollable page of the discords join page, not the reviews page.
+- ***Solution***
+  - I researched a way round this and found that the only way to display the page that i want is to use a bot and python language. As this was out of my scope at the time, i decided to use screenshots of the reviews page and will update it to the scrollable page in the future.
 
 - List structure readability.
-- ***issue***
-- I originally had the 3 lists on the first two pages in collumn form for all screen sizes. However, i found that when on mobile, the lists would appear squashed and difficult to read. This creates a bad user experience.
-- ***solution***
-- I changed the lists layout to appear in rows on smaller screens and then change to collumn on larger screens using media queries. This made the content easier to read as it allowed me to increase font size.
+- ***Issue***
+  - I originally had the 3 lists on the first two pages in collumn form for all screen sizes. However, i found that when on mobile, the lists would appear squashed and difficult to read. This creates a bad user experience.
+- ***Solution***
+  - I changed the lists layout to appear in rows on smaller screens and then change to collumn on larger screens using media queries. This made the content easier to read as it allowed me to increase font size.
 
-- Hero image.
-- ***issue***
-- the first hero image i added would load multiple copies of itself to fill the space of the screen. This didnt look good and i wanted just one large image across the full width.
-- ***solution***
-- I set the images width to 100% and added no-repeat to the images style rule. This resulted in one wide picture of the hero image.
+1. Hero image.
 
-- Footer Icons
-- ***issue***
-- I spent some time trying to space the icons in the footer evenly with padding for different screen sizes and wasted alot of time.
-- ***solution**
-- By setting the footers display to flex and justify content space between, this made sure the icons would appear evenly seperated on every screen size. I played arround with the padding with pixles but then found if i used percentage, it would result in consistant spacing across all screen sizes, saving time working out padding for each screen size using pixles.
+- ***Issue***
+  - the first hero image i added would load multiple copies of itself to fill the space of the screen. This didnt look good and i wanted just one large image across the full width.
+- ***Solution***
+  - I set the images width to 100% and added no-repeat to the images style rule. This resulted in one wide picture of the hero image.
 
-- Link to other sites.
-- ***issue***
-- When i first embeded a link to discord, it would open in the same browser, taking me out of the website. This resulting in poor user experience.
-- ***solution***
-- I added the rule in the anchor element, target=_blank. This resulted in the link opening up in a different browser when clicked.
+1. Footer Icons
 
--***Git commits issue***
+- ***Issue***
+  - I spent some time trying to space the icons in the footer evenly with padding for different screen sizes and wasted alot of time.
+- ***Solution**
+  - By setting the footers display to flex and justify content space between, this made sure the icons would appear evenly seperated on every screen size. I played arround with the padding with pixles but then found if i used percentage, it would result in consistant spacing across all screen sizes, saving time working out padding for each screen size using pixles.
+
+1. Link to other sites.
+
+- ***Issue***
+  - When i first embeded a link to discord, it would open in the same browser, taking me out of the website. This resulting in poor user experience.
+- ***Solution***
+  - I added the rule in the anchor element, target=_blank. This resulted in the link opening up in a different browser when clicked.
+
+***Git commits issue***
+
 Another issue i found was that during the early stages of development, i would forget, or not be as consistant with my git commits. This resulted in my commits containing too much various changes and so difficult to sum up in a message. As the development went on i improved on this, making it easier to understand what had changed, if i had to go back and do bug finding or fixes. I also adjusted my commit messages from past tense to present.
 
 ## **Post Development Testing**
@@ -224,24 +232,24 @@ Another issue i found was that during the early stages of development, i would f
 #### ***Html -*** <https://validator.w3.org/nu/>
 
 - ***Issue***
-- The navigation buttons i used were originally inside of an anchor element, which the validator displayed as a problem.
-- ***solution***
-- I wrapped the buttons in seperate form elements, which fixed the issue.
+  - The navigation buttons i used were originally inside of an anchor element, which the validator displayed as a problem.
+- ***Solution***
+  - I wrapped the buttons in seperate form elements, which fixed the issue.
 
-- ***issue***
-- I used a less than sign in the HTML code for a text paragraph, which caused a number of errors.
+- ***Issue***
+  - I used a less than sign in the HTML code for a text paragraph, which caused a number of errors.
 - ***solution***
-- I changed the sign in the HTML to text code, which i found on google, which displays the sign on the deployed site.
+  - I changed the sign in the HTML to text code, which i found on google, which displays the sign on the deployed site.
 
-- ***issue***
-- I used line brakes in the HTML code, to add space between the list bullet points. This created errors in the code validator.
-- ***solution***
-- I removed the line brakes in the HTML and added padding to the lists in the style sheet.
+- ***Issue***
+  - I used line brakes in the HTML code, to add space between the list bullet points. This created errors in the code validator.
+- ***Solution***
+  - I removed the line brakes in the HTML and added padding to the lists in the style sheet.
 
-- ***issue***
-- Not enough header elements on the page.
-- ***solution***
-- Added extra header elements to sections that were missing them, and where i didnt want them to show on the site, i set there display to none.
+- ***Issue***
+  - Not enough header elements on the page.
+- ***Solution***
+  - Added extra header elements to sections that were missing them, and where i didnt want them to show on the site, i set there display to none.
 
 #### ***CSS -*** https://jigsaw.w3.org/css-validator/
 
