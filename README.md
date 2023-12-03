@@ -12,26 +12,26 @@ Users of the website will be able to find all the information they need, being -
 
 ### **Target Audience**
 
-- users that play the game destiny 2
-- users that play destiny 2 and struggle to get the desired loot in the game mode "trials of osiris"
-- users that want to improve as players by looking for tips and advice by succesful gamers
+- Users that play the game destiny 2
+- Users that play destiny 2 and struggle to get the desired loot in the game mode "trials of osiris"
+- Users that want to improve as players by looking for tips and advice by succesful gamers
 
 ### **User Questioning**
 
-- users want a brief description of how the service works and a easy to find link to the discord
-- users want to know what the service costs
-- users that dont have discord want a way to sign up for the service
-- users want to see reviews to feel for confident in the service
-- users want to see a video of the discord and how to navigate it
+- Users want a brief description of how the service works and a easy to find link to the discord
+- Users want to know what the service costs
+- Users that dont have discord want a way to sign up for the service
+- Users want to see reviews to feel for confident in the service
+- Users want to see a video of the discord and how to navigate it
 
 ### **Websites Aim**
 
 - Provide information about what the business offers, cost of service and easy access to businesses main working platfrom - discord
 - Ensure the user can navigate easily around the page, to find what they want
-- ensure information is short and to the point making it easy to digest for the user
-- provide user with both written explanation and visual explanation of how service works
-- provide a contact point for people without discord to maximise customers for business
-- provide the business more exposure to potential customers
+- Ensure information is short and to the point making it easy to digest for the user
+- Provide user with both written explanation and visual explanation of how service works
+- Provide a contact point for people without discord to maximise customers for business
+- Provide the business more exposure to potential customers
 - Be designed to create a positive user experience on all devices, including mobile and up to desktop.
 
 ### **How Will This Be Achieved**
@@ -42,7 +42,7 @@ Users of the website will be able to find all the information they need, being -
 - The home page - which will provide a breif sumamry of what the website is and what the business provides, which will
   be located at the start of the page. This page will sumarise who the business is, what they do and the cost of the service. Also, a link
   to the discord server will be provided.
-- the How It Works page - which will provide a more detailed explanation about the steps to follow, to use the service.
+- The How It Works page - which will provide a more detailed explanation about the steps to follow, to use the service.
   This will be both written and visual explantion in the form of bullet points and youtube video. There will also be a reviews section and a
   second link to the discord server.
 - The sign up page - which will provide users that do not have discord or have any other questions, a form to fill out, so the business can
@@ -78,11 +78,11 @@ There was also some changes to the final design being -
 #### **Navigation:**
 
 - The navigation buttons appear on the header, on all 4 pages, including the form feedback page, making it an easy way to navigate throughout the website and allowing the user to find what they want fast.
-- the nav buttons include the about page, how it works page and the sign up page.
-- the nav buttons are all coloured different, on a grey header, to make them easy to spot.
-- they also have relevent icons for better asthetic design and better UX.
-- the nav buttons have a hover feature, giving the user feedback when they hover over each of the nav buttons showing them they can select the page.
-- the buttons also show the user which page they are on, by an underline of the pages button.
+- The nav buttons include the about page, how it works page and the sign up page.
+- The nav buttons are all coloured different, on a grey header, to make them easy to spot.
+- They also have relevent icons for better asthetic design and better UX.
+- The nav buttons have a hover feature, giving the user feedback when they hover over each of the nav buttons showing them they can select the page.
+- The buttons also show the user which page they are on, by an underline of the pages button.
 - The nav bar becomes a drop down menu for mobile users by using a burger bar.
 
 ![Nav bar](docs/screenshots/nav-bar.png)
@@ -92,8 +92,8 @@ There was also some changes to the final design being -
 #### **Header**
 
 - The header sticks to the top of all pages on the website and so as the user scrolls up and down, the header will remain fixed and move with the flow of the page. This creates a good UX as the user can find the navigation bar easy and all times.
-- it includes the title of the page, which also acts as a internal link to the home page - about.
-- it also homes the navigation buttons which are located in the bottom right hand side of the header, and more mobile users, this will turn into a dropdown menu in the form of a burger bar found on the right hand side of the header.
+- It includes the title of the page, which also acts as a internal link to the home page - about.
+- It also homes the navigation buttons which are located in the bottom right hand side of the header, and more mobile users, this will turn into a dropdown menu in the form of a burger bar found on the right hand side of the header.
 - It has a black solid border with box shadow effect to stand out.
 
 ![Header](docs/screenshots/header.png)   ![mobile header](docs/screenshots/mobile-header.png)
@@ -115,7 +115,7 @@ It also contains,
 The How It Works page contains an explanation of how the service works and steps to take to navigate the businesses operating platfrom - discord, summarised in short bullet pointed lists. Following the same consistant style of 3 lists, with the same colour headers as the previous page and nav buttons, each with a relevent icon.
 It also contains,
 
-- an embeded youtube video, explaining how the service works, that can be played by selecting the play button and can be full screened for a better viewing experience. This adds an extra way for users to recieve the information, that some people may find easier to digest.
+- An embeded youtube video, explaining how the service works, that can be played by selecting the play button and can be full screened for a better viewing experience. This adds an extra way for users to recieve the information, that some people may find easier to digest.
 - 3 screenshots of reviews from the businesses discord server, showing that the service holds value and is worth doing. This was orginally meant to be a scrollable page of entire review section of discord, but ended up being out of my scope at the time and will be updated in the future.
 - It has another hero image of game mode the website is about.
 - It also contains a second link to the discord server.
@@ -134,8 +134,8 @@ It also has,
 - The form cannot be submitted until the required information is put in the input boxes, being text and email.
 - A link to the discord server
 - an explantion that you can still use the service without discord, by filling out the form.
-- a form feedback page, that you are taken to on completion and submition of the form. This is a placeholder and will be updated in the future.It gives confirmation to the user that they have completed the form correctly and are told that they will be contacted soon.
-- a color scheme that matches the hero image creating a astheticly pleasing page.
+- A form feedback page, that you are taken to on completion and submition of the form. This is a placeholder and will be updated in the future.It gives confirmation to the user that they have completed the form correctly and are told that they will be contacted soon.
+- A color scheme that matches the hero image creating a astheticly pleasing page.
 - The form has a box shadow effect that makes it stand out.
 
 ![sign up page 1](docs/screenshots/sign-up-page1.png)
@@ -212,7 +212,7 @@ The issues i found during development include -
 
 - ***Issue***
   - I spent some time trying to space the icons in the footer evenly with padding for different screen sizes and wasted alot of time.
-- ***Solution**
+- ***Solution***
   - By setting the footers display to flex and justify content space between, this made sure the icons would appear evenly seperated on every screen size. I played arround with the padding with pixles but then found if i used percentage, it would result in consistant spacing across all screen sizes, saving time working out padding for each screen size using pixles.
 
  ***Link to other sites.***
