@@ -284,5 +284,20 @@ This being - <https://jordzen.github.io/Flawless-Sherpas/>
 #### ***Content:***
 
 - The code used to create the navigation drop down menu was used from code institutes project LOVE RUNNING.
-- All fonts were imported using Google Fonts.
-- All icons were imported using Font Awesome.
+- All fonts were imported using Google Fonts. <https://fonts.google.com/>
+- All icons were imported using Font Awesome. <https://fontawesome.com/>
+- How it works video was embeded from youtube. <https://www.youtube.com/>
+- Review screenshots were used from discord. <https://discord.com/>
+- HTML code validator <https://validator.w3.org/>
+- CSS code validator <https://jigsaw.w3.org/css-validator/>
+
+#### ***Media:***
+
+- All images on the website were taken from and credit to Bungie inc. <https://www.bungie.net/7>
+- The wireframes used for this project were made on Balsamiq <https://balsamiq.com/>
+- The responsive device screenshot was taken from Am i Responsive. <https://amiresponsive.co.uk/>
+
+#### ***Honarable Mention***
+
+A big thankyou to my code institute mentor David Bowers, who has used his valuable time to help guide me through this project and give me amazing advice.
+And also a thankyou to the flawless sherpa team that helped me design this website with important feedback through the discord users and members.
