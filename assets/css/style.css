@@ -73,6 +73,10 @@ nav {
     top: 100%;
 }
 
+nav form {
+    margin-top: 12px;
+}
+
 nav li {
     list-style-type: none;
 }
