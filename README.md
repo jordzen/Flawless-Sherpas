@@ -172,7 +172,7 @@ To see how the site worked and if any bugs or issues were present, i deployed it
 
 The issues i found during development include -
 
- 1. **Burger bar location.**
+  ***Burger bar location.***
 
 - ***Issue***
   - the drop down menu burger bar, for the navigation bar, would not move to the right hand side of the header, no matter what i did. I wanted the two headers in rows and the nav bar on the right.
@@ -180,41 +180,42 @@ The issues i found during development include -
 - ***Solution***
   - I had to set header display to flex and justify content as space between. I had the headers wrapped in an anchor element and the nav bar in a nav element. From there i used padding to move the burger bar and title to where i wanted.
 
-1. Youtube video.
+ ***Youtube video.***
 
 - ***Issue***
   - The youtube video i put in the How It Works page was not working, with the url i copied from the browser.
 - ***Solution***
   - I googled the issue and found i had the use the unique link on the videos page to embed the video into the site.
 
-1. Scrollable reviews page.
+ ***Scrollable reviews page.***
 
 - ***Issue***
   - When trying to embed a scrollable reviews page from the businesses discord, every time i tried to do this i found that the website would load up a scrollable page of the discords join page, not the reviews page.
 - ***Solution***
   - I researched a way round this and found that the only way to display the page that i want is to use a bot and python language. As this was out of my scope at the time, i decided to use screenshots of the reviews page and will update it to the scrollable page in the future.
 
-- List structure readability.
+  ***List structure readability.***
+
 - ***Issue***
   - I originally had the 3 lists on the first two pages in collumn form for all screen sizes. However, i found that when on mobile, the lists would appear squashed and difficult to read. This creates a bad user experience.
 - ***Solution***
   - I changed the lists layout to appear in rows on smaller screens and then change to collumn on larger screens using media queries. This made the content easier to read as it allowed me to increase font size.
 
-1. Hero image.
+ ***Hero image.***
 
 - ***Issue***
   - the first hero image i added would load multiple copies of itself to fill the space of the screen. This didnt look good and i wanted just one large image across the full width.
 - ***Solution***
   - I set the images width to 100% and added no-repeat to the images style rule. This resulted in one wide picture of the hero image.
 
-1. Footer Icons
+ ***Footer Icons***
 
 - ***Issue***
   - I spent some time trying to space the icons in the footer evenly with padding for different screen sizes and wasted alot of time.
 - ***Solution**
   - By setting the footers display to flex and justify content space between, this made sure the icons would appear evenly seperated on every screen size. I played arround with the padding with pixles but then found if i used percentage, it would result in consistant spacing across all screen sizes, saving time working out padding for each screen size using pixles.
 
-1. Link to other sites.
+ ***Link to other sites.***
 
 - ***Issue***
   - When i first embeded a link to discord, it would open in the same browser, taking me out of the website. This resulting in poor user experience.
