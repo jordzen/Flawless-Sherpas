@@ -190,7 +190,7 @@ main {
 #about-us {
     text-align: center;
     font-size: 11.5px;
-    margin-bottom: 40px;
+    margin: 0 20% 40px 20%;
     color: #b7bb0ed1;
 }
 
@@ -584,11 +584,11 @@ input {
     color: #7fcfff;
 }
 
-#p1 {
+#thankyou-p1 {
     padding-bottom: 20px;
 }
 
-#p2 {
+#thankyou-p2 {
     font-family: sans-serif;
 }
 
