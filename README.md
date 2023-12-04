@@ -61,11 +61,11 @@ Below are the wireframes for the 3 intended pages for desktop.
 
 ![Sign up wireframe for desktop](docs/screenshots/sign-up-wireframe.png)
 
-I started the wireframe design for desktop in this project and would have started for mobile and then done desktop if i was to do it again, as i coded for mobile design first and then added the response design after.  
+I started the wireframe design for desktop in this project and would have started for mobile and then done desktop if i was to do it again, as i coded for mobile design first and then added the response design after.
 
 There was also some changes to the final design being -
 
-- I did not include an embeded scrollable reviews page, as doing rearch on doing this with discord, i found that i needed to use a bot and python, which was out of my scope at the time. Instead i added 3 screenshots of reviews and will replace this will a scrollable page in the future.  
+- I did not include an embeded scrollable reviews page, as doing rearch on doing this with discord, i found that i needed to use a bot and python, which was out of my scope at the time. Instead i added 3 screenshots of reviews and will replace this will a scrollable page in the future.
 - I added text to the sign up form, of why it is there and for who, for clarity.
 - I changed the hero images to be more relevent to the content and look better when on wider screens.
 - I added cover text to hero images, for more effect and positive emotional response from user.
@@ -87,7 +87,7 @@ There was also some changes to the final design being -
 
 ![Nav bar](docs/screenshots/nav-bar.png)
 
-***
+---
 
 #### **Header**
 
@@ -96,7 +96,7 @@ There was also some changes to the final design being -
 - It also homes the navigation buttons which are located in the bottom right hand side of the header, and more mobile users, this will turn into a dropdown menu in the form of a burger bar found on the right hand side of the header.
 - It has a black solid border with box shadow effect to stand out.
 
-![Header](docs/screenshots/header.png)   ![mobile header](docs/screenshots/mobile-header.png)
+![Header](docs/screenshots/header.png) ![mobile header](docs/screenshots/mobile-header.png)
 
 ## **About Page**
 
@@ -172,91 +172,107 @@ To see how the site worked and if any bugs or issues were present, i deployed it
 
 The issues i found during development include -
 
-  ***Burger bar location.***
+**_Burger bar location:_**
 
-- ***Issue***
+- **_Issue_**
   - the drop down menu burger bar, for the navigation bar, would not move to the right hand side of the header, no matter what i did. I wanted the two headers in rows and the nav bar on the right.
 
-- ***Solution***
+- **_Solution_**
   - I had to set header display to flex and justify content as space between. I had the headers wrapped in an anchor element and the nav bar in a nav element. From there i used padding to move the burger bar and title to where i wanted.
 
- ***Youtube video.***
+  **_Youtube video:_**
 
-- ***Issue***
+- **_Issue_**
   - The youtube video i put in the How It Works page was not working, with the url i copied from the browser.
-- ***Solution***
+
+- **_Solution_**
   - I googled the issue and found i had the use the unique link on the videos page to embed the video into the site.
 
- ***Scrollable reviews page.***
+  **_Scrollable reviews page:_**
 
-- ***Issue***
+- **_Issue_**
   - When trying to embed a scrollable reviews page from the businesses discord, every time i tried to do this i found that the website would load up a scrollable page of the discords join page, not the reviews page.
-- ***Solution***
+
+- **_Solution_**
   - I researched a way round this and found that the only way to display the page that i want is to use a bot and python language. As this was out of my scope at the time, i decided to use screenshots of the reviews page and will update it to the scrollable page in the future.
 
-  ***List structure readability.***
+  **_List structure readability:_**
 
-- ***Issue***
+- **_Issue_**
   - I originally had the 3 lists on the first two pages in collumn form for all screen sizes. However, i found that when on mobile, the lists would appear squashed and difficult to read. This creates a bad user experience.
-- ***Solution***
+
+- **_Solution_**
   - I changed the lists layout to appear in rows on smaller screens and then change to collumn on larger screens using media queries. This made the content easier to read as it allowed me to increase font size.
 
- ***Hero image.***
+  **_Hero image:_**
 
-- ***Issue***
+- **_Issue_**
   - the first hero image i added would load multiple copies of itself to fill the space of the screen. This didnt look good and i wanted just one large image across the full width.
-- ***Solution***
+
+- **_Solution_**
   - I set the images width to 100% and added no-repeat to the images style rule. This resulted in one wide picture of the hero image.
 
- ***Footer Icons***
+  **_Footer Icons:_**
 
-- ***Issue***
+- **_Issue_**
   - I spent some time trying to space the icons in the footer evenly with padding for different screen sizes and wasted alot of time.
-- ***Solution***
+
+- **_Solution_**
   - By setting the footers display to flex and justify content space between, this made sure the icons would appear evenly seperated on every screen size. I played arround with the padding with pixles but then found if i used percentage, it would result in consistant spacing across all screen sizes, saving time working out padding for each screen size using pixles.
 
- ***Link to other sites.***
+  **_Link to other sites:_**
 
-- ***Issue***
+- **_Issue_**
   - When i first embeded a link to discord, it would open in the same browser, taking me out of the website. This resulting in poor user experience.
-- ***Solution***
-  - I added the rule in the anchor element, target=_blank. This resulted in the link opening up in a different browser when clicked.
 
-***Git commits issue***
+- **_Solution_**
+  - I added the rule in the anchor element, target=\_blank. This resulted in the link opening up in a different browser when clicked.
+
+**_Git commits issue:_**
 
 Another issue i found was that during the early stages of development, i would forget, or not be as consistant with my git commits. This resulted in my commits containing too much various changes and so difficult to sum up in a message. As the development went on i improved on this, making it easier to understand what had changed, if i had to go back and do bug finding or fixes. I also adjusted my commit messages from past tense to present.
+
+### **Remaining bugs and issues**
+
+- During the lighthouse test of the How it works page, a note was flagged up linked to the embeded youtube video. This noted that - Pages that use Media Device Dispatcher are not eligible for back/forward cache and that it was pending browser support.
+- Also, another point was flagged linked to the video and images - Serve static assets with an efficient cache policy.
+
+As i have not yet learnt about caches, a code institute tutor explained - that this is not covered and actually an advanced topic that you would learn in your developer career rather than on a coding course. I would like to revist this in the furture and fix the issue.
 
 ## **Post Development Testing**
 
 ### **Validators**
 
-#### ***Html -*** <https://validator.w3.org/nu/>
+#### **_Html -_** <https://validator.w3.org/n>
 
-- ***Issue***
+- **_Issue_**
   - The navigation buttons i used were originally inside of an anchor element, which the validator displayed as a problem.
-- ***Solution***
+- **_Solution_**
+
   - I wrapped the buttons in seperate form elements, which fixed the issue.
 
-- ***Issue***
+- **_Issue_**
   - I used a less than sign in the HTML code for a text paragraph, which caused a number of errors.
-- ***solution***
+- **_solution_**
+
   - I changed the sign in the HTML to text code, which i found on google, which displays the sign on the deployed site.
 
-- ***Issue***
+- **_Issue_**
   - I used line brakes in the HTML code, to add space between the list bullet points. This created errors in the code validator.
-- ***Solution***
+- **_Solution_**
+
   - I removed the line brakes in the HTML and added padding to the lists in the style sheet.
 
-- ***Issue***
+- **_Issue_**
   - Not enough header elements on the page.
-- ***Solution***
+- **_Solution_**
   - Added extra header elements to sections that were missing them, and where i didnt want them to show on the site, i set there display to none.
 
-#### ***CSS -*** <https://jigsaw.w3.org/css-validator/>
+#### **_CSS -_** <https://jigsaw.w3.org/css-validator/>
 
 - All pages pased the css code validator with no errors or issues found.
 
-## ***Lighthouse scores***
+## **_Lighthouse scores_**
 
 The two areas i had to work on to recieve these scores were,
 
@@ -268,7 +284,7 @@ The two areas i had to work on to recieve these scores were,
 ![lighthouse sign up mobile](docs/screenshots/lh-signup-mobile.png) ![lighthouse sign up desktop](docs/screenshots/lh-signup-desktop.png)
 ![lighthouse form feedback mobile](docs/screenshots/lh-formfeedback-mobile.png) ![lighthouse form feedback desktop](docs/screenshots/lh-formfeedback-desktop.png)
 
-## ***Deployment***
+## **_Deployment_**
 
 I deployed the site on GitHub pages, following these steps -
 
@@ -279,11 +295,12 @@ I deployed the site on GitHub pages, following these steps -
 
 This being - <https://jordzen.github.io/Flawless-Sherpas/>
 
-## ***Credits***
+## **_Credits_**
 
-#### ***Content:***
+#### **_Content:_**
 
 - The code used to create the navigation drop down menu was used from code institutes project LOVE RUNNING.
+- I tried avoiding using similar code in my project with that of the love running project as much as i could, but there may be some similarities in parts.
 - All fonts were imported using Google Fonts. <https://fonts.google.com/>
 - All icons were imported using Font Awesome. <https://fontawesome.com/>
 - How it works video was embeded from youtube. <https://www.youtube.com/>
@@ -291,13 +308,14 @@ This being - <https://jordzen.github.io/Flawless-Sherpas/>
 - HTML code validator <https://validator.w3.org/>
 - CSS code validator <https://jigsaw.w3.org/css-validator/>
 
-#### ***Media:***
+#### **_Media:_**
 
 - All images on the website were taken from and credit to Bungie inc. <https://www.bungie.net/7>
 - The wireframes used for this project were made on Balsamiq <https://balsamiq.com/>
 - The responsive device screenshot was taken from Am i Responsive. <https://amiresponsive.co.uk/>
 
-#### ***Honarable Mention***
+#### **_Honarable Mention_**
 
 A big thankyou to my code institute mentor David Bowers, who has used his valuable time to help guide me through this project and give me amazing advice.
 And also a thankyou to the flawless sherpa team that helped me design this website with important feedback through the discord users and members.
+And to big brother Jake for the advice.
