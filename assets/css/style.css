@@ -238,9 +238,8 @@ main {
     padding-top: 15px;
 }
 
-/* about us info icons*/
-.fa-hand-holding-dollar:before,
-.fa-hand-holding-usd:before {
+/* Index page icons*/
+.fa-hand-holding-dollar:before {
     font-size: 17px;
     color: rgb(55 187 29);
 }
@@ -255,19 +254,18 @@ main {
     color: #c9c707;
 }
 
-/* about page discord link */
+.fa-brands.fa-discord {
+    font-size: 50px;
+    color: rgb(82 93 255);
+    padding-bottom: 30px;
+}
 
+/* Index page discord link */
 #about-us-discord-link {
     text-align: center;
     margin-bottom: 150px;
     margin-top: 30px;
     font-size: 12px;
-}
-
-.fa-brands.fa-discord {
-    font-size: 50px;
-    color: rgb(82 93 255);
-    padding-bottom: 30px;
 }
 
 #about-us-discord-link h3 {
@@ -315,6 +313,15 @@ main {
     padding-top: 100px;
 }
 
+#how-it-works-info a {
+    text-decoration: underline;
+    color: #22a8d1;
+}
+
+#how-it-works-info a:hover {
+    color: #28ce5a;
+}
+
 #how-it-works-info ul {
     text-align: left;
     padding-left: 15px;
@@ -343,6 +350,7 @@ main {
     padding-top: 15px;
 }
 
+/* How it works icons */
 .fa-solid.fa-door-open {
     font-size: 15px;
     color: rgb(94 162 239);
@@ -369,6 +377,7 @@ main {
     padding-bottom: 15px;
 }
 
+/* How it works video and reviews */
 #discord-visuals {
     display: inline-block;
     margin-top: 30px;
@@ -384,17 +393,17 @@ main {
     padding-bottom: 50px;
 }
 
-#discord-reviews {
-    margin-top: 100px;
-    display: block;
-    align-self: center;
-}
-
 #reviews-title {
     color: rgb(55 187 29);
     text-decoration: underline;
     text-align: center;
     margin-bottom: 60px;
+}
+
+#discord-reviews {
+    margin-top: 100px;
+    display: block;
+    align-self: center;
 }
 
 #review-photos img {
@@ -411,15 +420,6 @@ main {
     margin-bottom: 60px;
 }
 
-#how-it-works-info a {
-    text-decoration: underline;
-    color: #22a8d1;
-}
-
-#how-it-works-info a:hover {
-    color: #28ce5a;
-}
-
 iframe {
     width: 300px;
     height: 200px;
@@ -431,6 +431,11 @@ iframe {
 }
 
 /* Sign up Main */
+#sign-up-main {
+    background-color: rgb(39, 38, 38);
+    color: #ffffff;
+    flex: 1 0 auto;
+}
 
 #hero3 {
     height: 350px;
@@ -450,7 +455,7 @@ iframe {
     padding-bottom: 100px;
 }
 
-#sign-up-form h2 {
+#sign-up-form h3 {
     display: none;
 }
 
@@ -463,12 +468,6 @@ iframe {
     border-color: #5b562f;
     padding: 25px 25px 40px 25px;
     text-transform: uppercase;
-}
-
-#sign-up-main {
-    background-color: rgb(39, 38, 38);
-    color: #ffffff;
-    flex: 1 0 auto;
 }
 
 #cover-text2 {
@@ -501,7 +500,6 @@ div#sign-up-info {
 #sign-up-discord-link {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 40px;
 }
 
 #sign-up-discord-link h3 {
@@ -580,7 +578,7 @@ input {
     padding: 50px 20px 0px 20px;
 }
 
-#thankyou h2 {
+#thankyou h3 {
     padding-bottom: 20px;
     font-size: 20px;
     color: #da65e0;
@@ -614,6 +612,7 @@ footer {
     padding: 10px 20% 10px 20%;
 }
 
+/* Footer icons*/
 .fa-brands.fa-twitter {
     color: #1b4793;
 }
@@ -668,6 +667,7 @@ footer {
         display: none;
     }
 
+    /* Navbar buttons */
     #about {
         margin: 0;
     }
@@ -760,8 +760,8 @@ footer {
         padding-bottom: 60px;
     }
 
-    #thankyou h2 {
-        font-size: 50px;
+    #thankyou h3 {
+        font-size: 40px;
     }
 
     #thankyou p {
@@ -808,12 +808,23 @@ footer {
         height: 200px;
     }
 
+    #who-we-are {
+        font-size: 25px;
+    }
+
+    #what-we-offer {
+        font-size: 25px;
+    }
+
+    #prices {
+        font-size: 25px;
+    }
+
     .fa-discord:before {
         font-size: 70px;
     }
 
-    .fa-hand-holding-dollar:before,
-    .fa-hand-holding-usd:before {
+    .fa-hand-holding-dollar:before {
         font-size: 22px;
     }
 
@@ -896,11 +907,11 @@ footer {
 
     #discord-video h3 {
         padding-bottom: 90px;
+        font-size: 30px;
     }
 
     h3 {
-        font-size: 30px;
-        padding-bottom: 80px;
+        font-size: 25px;
     }
 
     iframe {
@@ -986,7 +997,7 @@ footer {
         font-size: 17px;
     }
 
-    /* Index Main */
+    /* Index page Main */
     #about-us-info {
         font-size: 17px;
     }
