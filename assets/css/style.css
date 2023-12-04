@@ -1,9 +1,7 @@
 /* Google Import Fonts */
-
 @import url("https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Chakra+Petch:wght@300&family=Oswald:wght@600&family=Darker+Grotesque:wght@500&family=Maven+Pro:wght@400;500;600&family=Racing+Sans+One&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
-
 * {
     padding: 0;
     margin: 0;
@@ -11,20 +9,17 @@
 }
 
 /* General styles */
-
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 
     /* Generic project styles */
-
     color: #3a3a3a;
     font-family: "Maven Pro", sans-serif;
 }
 
 /* Header */
-
 header {
     background-color: rgb(224 227 227);
     position: fixed;
@@ -64,7 +59,6 @@ header>a {
 }
 
 /* Navbar */
-
 nav {
     background-color: rgb(224 227 227);
     position: absolute;
@@ -81,6 +75,7 @@ nav li {
     list-style-type: none;
 }
 
+/* Navbar drop down menu */
 #navbar-toggle {
     display: none;
 }
@@ -96,7 +91,6 @@ nav li {
 }
 
 /* Navbar Buttons */
-
 #about {
     background-color: rgb(28 112 209);
     color: #ffffff;
@@ -135,6 +129,7 @@ nav li {
     border-style: groove;
 }
 
+/* Button feedback */
 .active {
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -924,7 +919,6 @@ footer {
     }
 
     /* sign up Main */
-
     #cover-text2 {
         bottom: 18px;
         left: 15px;
@@ -965,7 +959,6 @@ footer {
     }
 
     /* feedback form Main */
-
     #cover-text3 {
         font-size: 58px;
         bottom: 15px;
@@ -1025,13 +1018,11 @@ footer {
     }
 
     /* sign up Main */
-
     div#sign-up-info {
         padding: 50px 20%;
     }
 
     /* form feedback main */
-
     #cover-text3 {
         font-size: 72px;
         bottom: 15px;
