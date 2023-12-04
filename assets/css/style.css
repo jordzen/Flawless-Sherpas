@@ -852,8 +852,7 @@ footer {
         margin-top: 50px;
     }
 
-    .fa-hand-holding-dollar:before,
-    .fa-hand-holding-usd:before {
+    .fa-hand-holding-dollar:before {
         font-size: 25px;
     }
 
