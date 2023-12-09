@@ -287,7 +287,7 @@ main {
 #hero2 {
     height: 280px;
     width: 100%;
-    background: url("../images/hero2-mobile.webp") no-repeat center center/cover;
+    background: url("../images/hero2.webp") no-repeat center center/cover;
     border: solid;
     border-color: black;
     position: relative;
@@ -715,7 +715,6 @@ footer {
 
     #hero2 {
         height: 350px;
-        background: url("../images/hero2.webp") no-repeat center center/cover;
     }
 
     #trials-logo2 {
