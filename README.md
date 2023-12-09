@@ -14,14 +14,14 @@ Users of the website will be able to find all the information they need, being -
 
 - Users that play the game destiny 2
 - Users that play destiny 2 and struggle to get the desired loot in the game mode "trials of osiris"
-- Users that want to improve as players by looking for tips and advice by succesful gamers
+- Users who want to improve as players by looking for tips and advice from successful gamers
 
 ### **User Questioning**
 
-- Users want a brief description of how the service works and a easy to find link to the discord
+- Users want a brief description of how the service works and an easy to find the link to the discord
 - Users want to know what the service costs
-- Users that dont have discord want a way to sign up for the service
-- Users want to see reviews to feel for confident in the service
+- Users that don't have Discord want a way to sign up for the service
+- Users want to see reviews to feel confident in the service
 - Users want to see a video of the discord and how to navigate it
 
 ### **Websites Aim**

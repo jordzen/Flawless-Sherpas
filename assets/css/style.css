@@ -546,17 +546,13 @@ input {
     color: rgb(83 121 165);
 }
 
-#hero4 h3 {
-    display: none;
-}
-
 #header-form-feedback {
     box-shadow: 0 2px 20px 20px #1c171e;
 }
 
 #cover-text3 {
     background-color: rgb(89 84 84 / 76%);
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     bottom: 18px;
     left: 15px;
@@ -746,7 +742,7 @@ footer {
 
     /*form feedback main */
     #cover-text3 {
-        font-size: 40px;
+        font-size: 35px;
         bottom: 15px;
         left: 15px;
         height: 50px;
@@ -965,6 +961,10 @@ footer {
         width: 450px;
         padding-left: 20px;
         padding-bottom: 88px;
+    } 
+
+    #cover-text3 h3 {
+        font-size: 50px;
     }
 }
 
@@ -1029,5 +1029,9 @@ footer {
         width: 600px;
         padding-left: 20px;
         padding-bottom: 104px;
+    } 
+
+    #cover-text3 h3 {
+        font-size: 65px;
     }
 }
