@@ -85,6 +85,10 @@ nav li {
     font-size: 40px;
 }
 
+header span {
+    display: none;
+}
+
 #navbar-toggle:checked~nav {
     display: block;
     font-size: 2rem;
