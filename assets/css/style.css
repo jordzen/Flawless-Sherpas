@@ -285,7 +285,7 @@ main {
 
 /* How It Works Main */
 #hero2 {
-    height: 350px;
+    height: 280px;
     width: 100%;
     background: url("../images/hero2.webp") no-repeat center center/cover;
     border: solid;
@@ -711,6 +711,10 @@ footer {
 
     #how-it-works-info>div {
         padding: 0 20px;
+    }
+
+    #hero2 {
+        height: 350px;
     }
 
     #trials-logo2 {
